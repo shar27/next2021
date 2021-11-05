@@ -25,12 +25,12 @@ function Nav () {
   </li>
   <li class="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" aria-current="pagee">Testimonials</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark" >Testimonials</a>
   </Link>
   </li>
   <li class="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" aria-current="pagee">Contact</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark">Contact</a>
     </Link>
  </li>
 </ul>
