@@ -1,5 +1,7 @@
 import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import Link from 'next/link'
+
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { makeStyles } from '@material-ui/core/styles'
@@ -24,26 +26,26 @@ const theme = {
 <div>
   <title>About</title>
 
-<ul class="nav justify-content-end m-3">
+<ul className="nav justify-content-end m-3">
   
-  <li class="nav-item">
+  <li className="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark text-dark">Home</a>
+    <a className="nav-link m-2 p-1 border border-dark text-dark">Home</a>
   </Link>
   </li>
-  <li class="nav-item">
+  <li className="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" >Services</a>
+    <a className="nav-link m-2 p-1 border border-dark  text-dark" >Services</a>
     </Link>
   </li>
-  <li class="nav-item">
+  <li className="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark"  >Testimonials</a>
+    <a className="nav-link m-2 p-1 border border-dark  text-dark"  >Testimonials</a>
     </Link>
   </li>
-  <li class="nav-item">
+  <li className="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark"  >Contact</a>
+    <a className="nav-link m-2 p-1 border border-dark  text-dark"  >Contact</a>
     </Link>
   </li>
 </ul>
@@ -51,16 +53,16 @@ const theme = {
 
     
         
-<div  class="container"> 
-    <h1 class="display-3 m-5 border text-center shadow-sm " >About me</h1>
-    <p class="lead text-center mb-5">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
+<div  className="container"> 
+    <h1 className="display-3 m-5 border text-center shadow-sm " >About me</h1>
+    <p className="lead text-center mb-5">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
     town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love travelling and I love exploring something the unknown to me.
     If you already can't tell a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
     I have visited 27 countries sadly and I have lived in 3 of them. </p>
     
-    <div class="container shadow d-flex flex-row justify-content-center mt-4">
+    <div className="container shadow d-flex flex-row justify-content-center mt-4">
           
-        <ol class="text-left">
+        <ol className="text-left">
        <h5><span>Human languages</span></h5>
             <li>English</li>
             <li>Spanish</li>
@@ -69,7 +71,7 @@ const theme = {
             <li>Urdu</li>
         </ol>
         <ol>
-        <h5 class="text-start"><span>Machine languages</span></h5>
+        <h5 className="text-start"><span>Machine languages</span></h5>
             <li>React.js</li>
             <li>Gatsby.js</li>
             <li>Next.js</li>
@@ -80,9 +82,9 @@ const theme = {
     </div>
     
     <div>
-      <h1 class="display-4 text-center mt-4">Portfolio links</h1>
-          <p class="lead text-center mt-4 mb-5">If you are interested in some of my work, please visit my github</p>
-     <div class="d-flex justify-content-center">
+      <h1 className="display-4 text-center mt-4">Portfolio links</h1>
+          <p className="lead text-center mt-4 mb-5">If you are interested in some of my work, please visit my github</p>
+     <div className="d-flex justify-content-center">
       <GitHubIcon 
       onClick={event => window.location.href='https://github.com/shar27/'} 
       style={hoveredStyle} 

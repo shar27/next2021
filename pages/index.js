@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import styles from '../styles/Home.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -38,19 +39,19 @@ export default function Home() {
 
    <section className={styles.intro}> 
   
-   <h5 class="display-4 m-5 pb-0 p-5">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
+   <h5 className="display-4 m-5 pb-0 p-5">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
    
-   <h5 class="display-5 m-5" >My name is shar and I am a web developer from the UK!</h5> 
+   <h5 className="display-5 m-5" >My name is shar and I am a web developer from the UK!</h5> 
    </section>
 
     
 
    <section className={styles.containerabout}> 
-   <figure class="text-center m-5 p-5 " >
-    <blockquote class="blockquote">
+   <figure className="text-center m-5 p-5 " >
+    <blockquote className="blockquote">
     <p className={styles.pquote}>"I am the master of my fate, I am the captain of my soul"</p>
     </blockquote>
-  <figcaption class="blockquote-footer">
+  <figcaption className="blockquote-footer">
     William Ernst Henley,<cite title="Source Title"> Invictus</cite>
   </figcaption>
   </figure>
@@ -64,7 +65,7 @@ export default function Home() {
 
 <Testimonials/>
 <Contact/>
-<div class="d-flex justify-content-center"> 
+<div className="d-flex justify-content-center"> 
 <GitHubIcon onClick={event => window.location.href='https://github.com/shar27/'} 
 style={hoveredStyle} 
 fontSize="large" 
