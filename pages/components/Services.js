@@ -15,7 +15,7 @@ function Services () {
 <div className="col">
 
 <h1 className=" display-2 m3 p-10 text-left">1. Consultation</h1>
-<Image  
+<Image alt="something"  
   className="shadow-lg" 
   src="/consult.jpg"  
   width="500px"
@@ -26,7 +26,7 @@ function Services () {
 </p>
 
 <h1 className="display-2 m1 p-7  text-left" >3. Development</h1>
-<Image className="shadow"  src="/code3.jpg"  
+<Image alt="something" className="shadow"  src="/code3.jpg"  
   width="500px"
   height="300px"
 />
@@ -41,7 +41,7 @@ function Services () {
 <div className="col">
 
 <h1 className="display-2 m3 p-10  text-left " > 2. Design</h1>
-<Image className="shadow" src="/design.jpg"  
+<Image alt="something" className="shadow" src="/design.jpg"  
   width="500px"
   height="300px"
 />
@@ -53,7 +53,7 @@ function Services () {
 </p>
 
     <h1 className="display-2 m3 p-10 text-left" >4. Deployment</h1>
-    <Image className="shadow" src="/deployment.jpg"  
+    <Image alt="something" className="shadow" src="/deployment.jpg"  
   width="500px"
   height="300px"
 />
@@ -65,7 +65,7 @@ This is where we put your site live for the world to see!
 
 <div className="col">
 <h1 className="display-2 m3 p-10  text-left" >5. Maintenance</h1>
-<Image className="shadow" src="/maintena.jpg"  
+<Image alt="something" className="shadow" src="/maintena.jpg"  
   width="500px"
   height="300px"
 />

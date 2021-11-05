@@ -33,7 +33,7 @@ export default function Home() {
 <Nav/>
     
   <div className="container">
-  <img src="profile-warsaw.jpg" className={styles.imgprofile} alt="me"></img>
+  <Image alt="profile" src="profile-warsaw.jpg" className={styles.imgprofile} alt="me"></Image>
   
   </div>
 

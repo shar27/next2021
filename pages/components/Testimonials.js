@@ -1,3 +1,7 @@
+import Image from 'next/image'
+
+
+
 function Testimonials () {
   
   
@@ -10,7 +14,9 @@ function Testimonials () {
 <div className="col">
 
 <h1 className="display-2 mt-5 m3 p-10 text-left">E-commerce store</h1>
-<img src="./spendlet.PNG"  
+<Image 
+  alt="spendlet"
+  src="/spendlet.PNG"  
   width="500px"
   height="300px"
 />
@@ -23,7 +29,9 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 </p>
 
 <h1 className="display-2 m1 p-7  text-right mb-4" >Restaurant</h1>
-<img src="./background1.jpg"  
+<Image 
+  alt="Restaurant"
+  src="/background1.jpg"  
   width="500px"
   height="300px"
 />
