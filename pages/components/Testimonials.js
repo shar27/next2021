@@ -9,11 +9,11 @@ function Testimonials () {
   return (
 
 <div className="container p-5" >
-<h1  className="display-2 mb-5 m-5 p-10 col-12 text-center border" >Testimonials</h1>
+<h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center text-lg-center" >What do people say ?</h1>
 <div className="row">
 <div className="col">
 
-<h1 className="display-2 mt-5 m3 p-10 text-left">E-commerce store</h1>
+<h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">E-commerce store</h1>
 <Image 
   alt="spendlet"
   src="/spendlet.PNG"  

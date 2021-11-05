@@ -48,7 +48,7 @@ export default function Home() {
    
     <ReactPlayer 
    priority
-   autoPlay loop
+   autoPlay={true} loop
    className='react-player'
     url="https://player.vimeo.com/external/241674181.hd.mp4?s=2c996895e8d51489ca31eba756f0c8fdca6017fb&profile_id=174"    
     playing={isPlaying}
