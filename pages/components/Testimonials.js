@@ -9,7 +9,7 @@ function Testimonials () {
   return (
 
 <div className="container p-5" >
-<h1  className="display-2 mb-5 m-5 p-10 text-center border" >Testimonials</h1>
+<h1  className="display-2 mb-5 m-5 p-10 col-12 text-center border" >Testimonials</h1>
 <div className="row">
 <div className="col">
 
