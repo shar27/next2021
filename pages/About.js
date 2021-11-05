@@ -28,22 +28,22 @@ const theme = {
   
   <li class="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark text-dark" href="/">Home</a>
+    <a class="nav-link m-2 p-1 border border-dark text-dark">Home</a>
   </Link>
   </li>
   <li class="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/">Services</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark" >Services</a>
     </Link>
   </li>
   <li class="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" >Testimonials</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark"  >Testimonials</a>
     </Link>
   </li>
   <li class="nav-item">
   <Link href="/"> 
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" >Contact</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark"  >Contact</a>
     </Link>
   </li>
 </ul>
