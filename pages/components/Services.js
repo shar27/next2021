@@ -1,8 +1,10 @@
 import { InlineWidget } from "react-calendly";
+import Image from 'next/image'
 
 
 
 function Services () {
+
 
   return (
 
@@ -13,7 +15,9 @@ function Services () {
 <div class="col">
 
 <h1 class=" display-2 m3 p-10 text-left">1. Consultation</h1>
-<img  class="shadow-lg" src="./consult.jpg"  
+<Image  
+  class="shadow-lg" 
+  src="/consult.jpg"  
   width="500px"
   height="300px"
 />
@@ -22,7 +26,7 @@ function Services () {
 </p>
 
 <h1 class="display-2 m1 p-7  text-left" >3. Development</h1>
-<img class="shadow"  src="./code3.jpg"  
+<Image class="shadow"  src="/code3.jpg"  
   width="500px"
   height="300px"
 />
@@ -37,7 +41,7 @@ function Services () {
 <div class="col">
 
 <h1 class="display-2 m3 p-10  text-left " > 2. Design</h1>
-<img class="shadow" src="./design.jpg"  
+<Image class="shadow" src="/design.jpg"  
   width="500px"
   height="300px"
 />
@@ -49,7 +53,7 @@ function Services () {
 </p>
 
     <h1 class="display-2 m3 p-10 text-left" >4. Deployment</h1>
-    <img class="shadow" src="./deployment.jpg"  
+    <Image class="shadow" src="/deployment.jpg"  
   width="500px"
   height="300px"
 />
@@ -61,7 +65,7 @@ This is where we put your site live for the world to see!
 
 <div class="col">
 <h1 class="display-2 m3 p-10  text-left" >5. Maintenance</h1>
-<img class="shadow" src="./maintena.jpg"  
+<Image class="shadow" src="/maintena.jpg"  
   width="500px"
   height="300px"
 />

@@ -27,16 +27,24 @@ const theme = {
 <ul class="nav justify-content-end m-3">
   
   <li class="nav-item">
+  <Link href="/"> 
     <a class="nav-link m-2 p-1 border border-dark text-dark" href="/">Home</a>
+  </Link>
   </li>
   <li class="nav-item">
+  <Link href="/"> 
     <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/">Services</a>
+    </Link>
   </li>
   <li class="nav-item">
+  <Link href="/"> 
     <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" >Testimonials</a>
+    </Link>
   </li>
   <li class="nav-item">
+  <Link href="/"> 
     <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" >Contact</a>
+    </Link>
   </li>
 </ul>
 
