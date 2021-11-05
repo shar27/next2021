@@ -48,7 +48,9 @@ export default function Home() {
    
     <ReactPlayer 
    priority
-   autoPlay={true} loop
+   autoPlay 
+   loop
+   muted
    className='react-player'
     url="https://player.vimeo.com/external/241674181.hd.mp4?s=2c996895e8d51489ca31eba756f0c8fdca6017fb&profile_id=174"    
     playing={isPlaying}
@@ -66,9 +68,9 @@ export default function Home() {
 
    <section className={styles.intro}> 
   
-   <h5 className=" display-4 m-5 pb-0 p-5 text-sm-start text-md-center text-lg-center">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
+   <h5 className=" display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
    
-   <h5 className="display-5 m-5 text-sm-start text-md-center text-lg-center" >My name is shar and I am a web developer from the UK!</h5> 
+   <h5 className="display-5 mb-4 mt-5 text-sm-center text-md-center text-lg-center" >My name is shar and I am a web developer from the UK!</h5> 
    </section>
 
     

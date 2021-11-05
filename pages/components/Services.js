@@ -54,21 +54,21 @@ function Services () {
   Need a design but not sure where to begin? I am happy to take over this process and walk you through each step. 
   
 </p>
-
+  
     <h1 className="display-2 m3 p-10 text-left" >Deployment</h1>
-    <Image alt="something" className="shadow" src="/deployment.jpg"  
+    <Image alt="something" className=" shadow col-lg-4  p-0 mb-2" src="/deployment.jpg"  
   width="500px"
   height="300px"
   priority
 />
-    
+
 <p className="lead text-left mt-4">
 This is where we put your site live for the world to see!  
 </p>
 </div>
 
 <div className="col">
-<h1 className="display-2 m3 p-10  text-left" >Maintenance</h1>
+<h1 className="display-2 m3 p-10  text-left col-12 " >Maintenance</h1>
 <Image alt="something" className="shadow" src="/maintena.jpg"  
   width="500px"
   height="300px"
@@ -80,11 +80,11 @@ This is where we put your site live for the world to see!
 </p>
 </div>
 
-  <div  id="div" className="col">
+  <div  id="div" className="col-12">
 <h1 className="display-2 m3 p-10  text-center">Calendar</h1>
 <InlineWidget styles={{height: '400px'}} url="https://calendly.com/shariqahmed" />
     
-<p className="lead text-left mt-4">
+<p className="lead text-left mt-4 text-lg-center">
 Seen enough? Check out my availability here.
 </p>
 </div>
