@@ -33,13 +33,24 @@ export default function Home() {
 <Nav/>
     
   <div className="container">
-  <Image alt="profile" src="profile-warsaw.jpg" className={styles.imgprofile} alt="me"></Image>
+  <Image 
+  className="rounded-circle"
+  alt="profile" 
+  src="/profile-warsaw.jpg" 
+  alt="me"
+  width="400"
+  height="400"
+  priority
+  />
   
+
+  
+
   </div>
 
    <section className={styles.intro}> 
   
-   <h5 className="display-4 m-5 pb-0 p-5">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
+   <h5 className=" display-4 m-5 pb-0 p-5">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
    
    <h5 className="display-5 m-5" >My name is shar and I am a web developer from the UK!</h5> 
    </section>
