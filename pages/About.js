@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import Link from 'next/link'
-
+import Image from 'next/image'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { makeStyles } from '@material-ui/core/styles'
@@ -51,7 +51,22 @@ const theme = {
 </ul>
 
 
-    
+<div className="container">
+  <Image 
+  className="rounded-circle"
+  alt="profile" 
+  src="/profile-warsaw.jpg" 
+  alt="me"
+  width="400"
+  height="400"
+  priority
+  />
+  
+
+  
+
+  </div>
+
         
 <div  className="container"> 
     <h1 className="display-3 m-5 border text-center shadow-sm " >About me</h1>

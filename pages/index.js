@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ReactPlayer from 'react-player';
 import styles from '../styles/Home.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -12,10 +12,15 @@ import Testimonials from './components/Testimonials'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Nav from './components/Nav'
 import { spacing } from '@mui/system';
+import React, {useState} from 'react';
+
+
 
 
 export default function Home() {
+  const [isPlaying, setIsPlaying] = useState(true);
   
+
   const theme = {
     spacing: 8,
   }
@@ -23,30 +28,35 @@ export default function Home() {
   const hoveredStyle = {
     cursor: 'pointer'
   };
+  
+  
   return (
     <div>
    <Head>
      <title>Home</title>
      
    </Head>
+   <div className="player-wrapper">
+   <div className="container">
+    <Nav/>
+    </div>
 
-<Nav/>
+   <ReactPlayer 
+   priority
+   autoPlay loop
+   className='react-player'
+    url="https://player.vimeo.com/external/241674181.hd.mp4?s=2c996895e8d51489ca31eba756f0c8fdca6017fb&profile_id=174"    
+    playing={isPlaying}
+    height = '100%'
+    width = '100%'
     
-  <div className="container">
-  <Image 
-  className="rounded-circle"
-  alt="profile" 
-  src="/profile-warsaw.jpg" 
-  alt="me"
-  width="400"
-  height="400"
-  priority
   />
-  
-
-  
-
   </div>
+    
+    
+
+  
+
 
    <section className={styles.intro}> 
   
