@@ -31,17 +31,22 @@ export default function Home() {
   
   
   return (
-    <div>
+<div>
    <Head>
      <title>Home</title>
-     
-   </Head>
-   <div className="player-wrapper">
+    </Head>
+ <div>
+   <Nav/>
+   </div>
+   
+    <div className="player-wrapper">
    <div className="container">
-    <Nav/>
-    </div>
+    
+   </div>
 
-   <ReactPlayer 
+    <div>
+   
+    <ReactPlayer 
    priority
    autoPlay loop
    className='react-player'
@@ -49,8 +54,9 @@ export default function Home() {
     playing={isPlaying}
     height = '100%'
     width = '100%'
-    
+     
   />
+  </div>
   </div>
     
     

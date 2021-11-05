@@ -10,7 +10,7 @@ function Nav () {
   <title>About</title>
 
 
-<ul  className="nav justify-content-end m-3 col-12 pe-auto">
+<ul  className="nav justify-content-end m-1 p-1 col-12 pe-auto">
    
   <li className="nav-item">
   <Link href="About">
