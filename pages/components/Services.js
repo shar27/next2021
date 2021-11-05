@@ -14,7 +14,7 @@ function Services () {
 <div className="row">
 <div className="col">
 
-<h1 className=" display-2 m3 p-10 text-left">1. Consultation</h1>
+<h1 className=" display-2 m3 p-10 text-left">Consultation</h1>
 <Image alt="something"  
   className="shadow-lg" 
   src="/consult.jpg"  
@@ -26,7 +26,7 @@ function Services () {
   A free 30 minute phone call, with no strings attached. Where we discuss your goals, objectives and timelines.
 </p>
 
-<h1 className="display-2 m1 p-7  text-left" >3. Development</h1>
+<h1 className="display-2 m1 p-7  text-left" >Development</h1>
 <Image alt="something" className="shadow"  src="/code3.jpg"  
   width="500px"
   height="300px"
@@ -42,7 +42,7 @@ function Services () {
 
 <div className="col">
 
-<h1 className="display-2 m3 p-10  text-left " > 2. Design</h1>
+<h1 className="display-2 m3 p-10  text-left " > Design</h1>
 <Image alt="something" className="shadow" src="/design.jpg"  
   width="500px"
   height="300px"
@@ -55,7 +55,7 @@ function Services () {
   
 </p>
 
-    <h1 className="display-2 m3 p-10 text-left" >4. Deployment</h1>
+    <h1 className="display-2 m3 p-10 text-left" >Deployment</h1>
     <Image alt="something" className="shadow" src="/deployment.jpg"  
   width="500px"
   height="300px"
@@ -68,7 +68,7 @@ This is where we put your site live for the world to see!
 </div>
 
 <div className="col">
-<h1 className="display-2 m3 p-10  text-left" >5. Maintenance</h1>
+<h1 className="display-2 m3 p-10  text-left" >Maintenance</h1>
 <Image alt="something" className="shadow" src="/maintena.jpg"  
   width="500px"
   height="300px"
