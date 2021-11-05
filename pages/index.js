@@ -66,9 +66,9 @@ export default function Home() {
 
    <section className={styles.intro}> 
   
-   <h5 className=" display-4 m-5 pb-0 p-5">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
+   <h5 className=" display-4 m-5 pb-0 p-5 text-sm-start text-md-center text-lg-center">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
    
-   <h5 className="display-5 m-5" >My name is shar and I am a web developer from the UK!</h5> 
+   <h5 className="display-5 m-5 text-sm-start text-md-center text-lg-center" >My name is shar and I am a web developer from the UK!</h5> 
    </section>
 
     
