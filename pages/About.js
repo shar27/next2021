@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { makeStyles } from '@material-ui/core/styles'
@@ -32,10 +33,10 @@ const theme = {
     <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/">Services</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" aria-current="pagee">Testimonials</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" >Testimonials</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" aria-current="pagee">Contact</a>
+    <a class="nav-link m-2 p-1 border border-dark  text-dark" href="/" >Contact</a>
   </li>
 </ul>
 
