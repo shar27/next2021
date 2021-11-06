@@ -68,7 +68,7 @@ const theme = {
   </div>
   <section className={styles.intro}> 
   
-  <h5 className=" display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
+  <h5 className=" display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, 你好, سلام , Cześć! Kiddan!</h5>
   
   <h5 className="display-5 mb-4 mt-5 text-sm-center text-md-center text-lg-center" >My name is Shar and I am a web developer from the UK!</h5> 
   </section>
@@ -76,14 +76,14 @@ const theme = {
 <div  className="container"> 
     <h1 className="display-3 m-5 border text-center shadow-sm " >About me</h1>
     <p className="lead text-center mb-5">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
-    town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love travelling and I love exploring the unknown.
+    town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love traveling and I love exploring the unknown.
     If you already can't tell, a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
     To date, I have visited 27 countries and I have lived in 3 of them. </p>
     
     <div className="container shadow d-flex flex-row justify-content-center mt-4">
           
         <ol className="text-left">
-       <h5><span>Human languages</span></h5>
+       <h5><span>Human Languages</span></h5>
             <li>English</li>
             <li>Spanish</li>
             <li>Mandarin</li>
@@ -91,7 +91,7 @@ const theme = {
             <li>Urdu</li>
         </ol>
         <ol>
-        <h5 className="text-start"><span>Machine languages</span></h5>
+        <h5 className="text-start"><span>Machine Languages</span></h5>
             <li>React.js</li>
             <li>Gatsby.js</li>
             <li>Next.js</li>

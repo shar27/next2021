@@ -72,7 +72,7 @@ export default function Home() {
     <p className={styles.pquote}>"53% of mobile users abandon slow websites after just 3 seconds"</p>
     </blockquote>
   <figcaption className="blockquote-footer">
-  From<cite title="Source Title">Google</cite>
+  <cite title="Source Title">Google</cite>
   </figcaption>
   </figure>
   </section>
