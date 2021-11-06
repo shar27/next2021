@@ -14,23 +14,23 @@ function Nav () {
    
   <li className="nav-item">
   <Link  href="About">
-    <a  className="nav-link m-2 p-1 border border-dark pe-auto text-dark">About me</a>
+    <a  className="nav-link m-2 p-1  pe-auto text-dark">About me</a>
     </Link>
   </li>
   
   <li className="nav-item">
     <Link href="#services"> 
-    <a className="nav-link m-2 p-1 border border-dark  text-dark">Services</a>
+    <a className="nav-link m-2 p-1   text-dark">Services</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="#testimonials"> 
-    <a className="nav-link m-2 p-1 border border-dark  text-dark" >Testimonials</a>
+    <a className="nav-link m-2 p-1   text-dark" >Testimonials</a>
   </Link>
   </li>
   <li className="nav-item">
   <Link href="#contact"> 
-    <a className="nav-link m-2 p-1 border border-dark  text-dark">Contact</a>
+    <a className="nav-link m-2 p-1   text-dark">Contact</a>
     </Link>
  </li>
 </ul>

@@ -30,22 +30,22 @@ const theme = {
   
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1 border border-dark text-dark">Home</a>
+    <a className="nav-link m-2 p-1  text-dark">Home</a>
   </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1 border border-dark  text-dark" >Services</a>
+    <a className="nav-link m-2 p-1   text-dark" >Services</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1 border border-dark  text-dark"  >Testimonials</a>
+    <a className="nav-link m-2 p-1   text-dark"  >Testimonials</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1 border border-dark  text-dark"  >Contact</a>
+    <a className="nav-link m-2 p-1   text-dark"  >Contact</a>
     </Link>
   </li>
 </ul>
@@ -70,7 +70,7 @@ const theme = {
   
   <h5 className=" display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
   
-  <h5 className="display-5 mb-4 mt-5 text-sm-center text-md-center text-lg-center" >My name is shar and I am a web developer from the UK!</h5> 
+  <h5 className="display-5 mb-4 mt-5 text-sm-center text-md-center text-lg-center" >My name is Shar and I am a web developer from the UK!</h5> 
   </section>
         
 <div  className="container"> 
