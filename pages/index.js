@@ -69,10 +69,10 @@ export default function Home() {
    <section className={styles.containerabout}> 
    <figure className="text-center m-5 p-5 " >
     <blockquote className="blockquote">
-    <p className={styles.pquote}>"I am the master of my fate, I am the captain of my soul"</p>
+    <p className={styles.pquote}>"53% of mobile users abandon slow websites after just 3 seconds"</p>
     </blockquote>
   <figcaption className="blockquote-footer">
-    William Ernst Henley,<cite title="Source Title"> Invictus</cite>
+  From<cite title="Source Title">Google</cite>
   </figcaption>
   </figure>
   </section>

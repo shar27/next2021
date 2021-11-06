@@ -76,9 +76,9 @@ const theme = {
 <div  className="container"> 
     <h1 className="display-3 m-5 border text-center shadow-sm " >About me</h1>
     <p className="lead text-center mb-5">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
-    town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love travelling and I love exploring something the unknown to me.
-    If you already can't tell a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
-    I have visited 27 countries and I have lived in 3 of them. </p>
+    town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love travelling and I love exploring the unknown.
+    If you already can't tell, a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
+    To date, I have visited 27 countries and I have lived in 3 of them. </p>
     
     <div className="container shadow d-flex flex-row justify-content-center mt-4">
           
