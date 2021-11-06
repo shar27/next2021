@@ -1,8 +1,14 @@
 import Link from 'next/link'
-
+import React, { forwardRef ,useRef} from 'react'
 
 function Nav () {
+    const titleRef = useRef()
+
     
+
+    function handleServiceClick () {
+      titleRef.current.scrollIntoView({behaviour: 'smooth'})
+    }
   
   return (
 
@@ -13,7 +19,7 @@ function Nav () {
 <ul  className="nav justify-content-end m-1 p-1 col-12 pe-auto">
    
   <li className="nav-item">
-  <Link href="About">
+  <Link  href="About">
     <a  className="nav-link m-2 p-1 border border-dark pe-auto text-dark">About me</a>
     </Link>
   </li>

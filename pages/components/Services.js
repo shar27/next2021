@@ -3,13 +3,14 @@ import Image from 'next/image'
 
 
 
+
 function Services () {
 
 
   return (
 
 
-<div className="container p-5" >
+<div className="container p-5" id="services" >
 <h1  className="display-2 m-4 p-10 text-center border" >Services</h1>
 <div className="row">
 <div className="col">

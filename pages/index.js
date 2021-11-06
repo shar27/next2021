@@ -17,6 +17,7 @@ import React, {useState} from 'react';
 
 
 
+
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
   
@@ -61,18 +62,6 @@ export default function Home() {
   </div>
   </div>
     
-    
-
-  
-
-
-   <section className={styles.intro}> 
-  
-   <h5 className=" display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, 你好！，سلام ,  Kiddan!</h5>
-   
-   <h5 className="display-5 mb-4 mt-5 text-sm-center text-md-center text-lg-center" >My name is shar and I am a web developer from the UK!</h5> 
-   </section>
-
     
 
    <section className={styles.containerabout}> 
