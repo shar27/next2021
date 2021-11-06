@@ -22,6 +22,8 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
   
 
+  
+
   const theme = {
     spacing: 8,
   }

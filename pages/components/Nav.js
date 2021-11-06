@@ -1,14 +1,8 @@
 import Link from 'next/link'
-import React, { forwardRef ,useRef} from 'react'
+
 
 function Nav () {
-    const titleRef = useRef()
-
     
-
-    function handleServiceClick () {
-      titleRef.current.scrollIntoView({behaviour: 'smooth'})
-    }
   
   return (
 
@@ -25,17 +19,17 @@ function Nav () {
   </li>
   
   <li className="nav-item">
-    <Link href="/"> 
+    <Link href="#services"> 
     <a className="nav-link m-2 p-1 border border-dark  text-dark">Services</a>
     </Link>
   </li>
   <li className="nav-item">
-  <Link href="/"> 
+  <Link href="#testimonials"> 
     <a className="nav-link m-2 p-1 border border-dark  text-dark" >Testimonials</a>
   </Link>
   </li>
   <li className="nav-item">
-  <Link href="/"> 
+  <Link href="#contact"> 
     <a className="nav-link m-2 p-1 border border-dark  text-dark">Contact</a>
     </Link>
  </li>

@@ -12,7 +12,7 @@ function Contact () {
     return (
 
 
-  <div className="container d-grid gap-2 col-6 mx-auto ">
+  <div id='contact' className="container d-grid gap-2 col-6 mx-auto ">
   
     <button onClick={openEmail} 
     type="submit" 
