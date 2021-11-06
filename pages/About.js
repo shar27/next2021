@@ -68,10 +68,10 @@ const theme = {
   </div>
   <section className={styles.intro}> 
   
-  <h5 className=" display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, Cześć!</h5>
-  <h5 className="display-4 mt-5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">  你好, سلام   </h5>
+  <h5 className=" display-4 mt-5 -5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, Cześć!</h5>
+  <h5 className="display-4 mt-5 mb-5 m-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">  你好, سلام   </h5>
   
-  <h5 className="display-5 mb-4 mt-5 text-sm-center text-md-center text-lg-center" >My name is Shar and I am a web developer from the UK!</h5> 
+  <h5 className="display-5 mt-5 m-5 p-2 text-sm-center text-md-center text-lg-center" >My name is Shar and I am a web developer from the UK!</h5> 
   </section>
         
 <div  className="container"> 
