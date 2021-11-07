@@ -25,9 +25,7 @@ function Nav () {
     </Link>
   </li>
   <li className="nav-item">
-  <Link href="Products"> 
-    <a className="nav-link m-2 p-1   text-dark">Products</a>
-    </Link>
+ 
  </li>
   <li className="nav-item">
   <Link href="#testimonials"> 
