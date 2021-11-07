@@ -13,10 +13,15 @@
   height: 40px;
 }
 
+.badges {
+  column-gap: 40px;
+
+}
 
 .containerabout {
   margin-top: 170px;
  margin-bottom: 400px;
+ color: white;
 }
 
 .servicecontainer {
@@ -64,7 +69,15 @@ text-align:center;
   z-index: 1;
 }
 
+.wrapperbg {
+  position:absolute;
+  z-index: -2;
+}
 
+.index {
+  position: relative;
+  z-index: 1;
+}
 .react-player {
   position: absolute;
   top: 0;

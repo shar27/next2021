@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 
+
 function Nav () {
     
   
@@ -23,6 +24,11 @@ function Nav () {
     <a className="nav-link m-2 p-1   text-dark">Services</a>
     </Link>
   </li>
+  <li className="nav-item">
+  <Link href="Products"> 
+    <a className="nav-link m-2 p-1   text-dark">Products</a>
+    </Link>
+ </li>
   <li className="nav-item">
   <Link href="#testimonials"> 
     <a className="nav-link m-2 p-1   text-dark" >Testimonials</a>

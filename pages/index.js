@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from 'react-player';
 import styles from '../styles/Home.module.css'
@@ -9,12 +9,19 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Services from './components/Services'
 import Contact from './components/Contact'
 import Testimonials from './components/Testimonials'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
 import Nav from './components/Nav'
 import { spacing } from '@mui/system';
 import React, {useState} from 'react';
 
+import ComputerIcon from '@mui/icons-material/Computer';
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
+import TabletAndroidIcon from '@mui/icons-material/TabletAndroid';
 
+import Grid from '@material-ui/core/Grid';
+
+import Badges from './components/Badges';
+import FadeIn from 'react-fade-in';
 
 
 
@@ -63,20 +70,94 @@ export default function Home() {
   />
   </div>
   </div>
+  
+
+
+ <h1 className="display-4 text-center mt-3 pt-4 mb-0 pb-0" >Did you know?</h1>
+  <section> 
+   
+   <figure className="text-center mb-4 m-5 mt-0 p-5" >
+    <blockquote className="blockquote">
+    <p className={styles.pquote}><em>" In a study commissioned by Google and conducted by 55 and Deloitte,
+     decreasing mobile site load times by just one tenth of a second resulted in major increases in conversion 
+     rates — specifically, 8.4% for retail sites and 10.1% for travel sites. (Deloitte, 2019)"</em></p>
+    </blockquote>
+  <figcaption className="blockquote-footer">
+  <cite title="Source Title">Deloitte & Google</cite>
+  </figcaption>
+  </figure>
+  </section>
+
+  <FadeIn transitionDuration> 
+    <h1 className="display-5 text-center">Responsive designs</h1>
+   </FadeIn>
+
+
+
+   <Grid container> 
+   <Grid item sm={12} md={4} lg={4}>
     
+    <ComputerIcon
+     
+      fontSize = "large"
+      sx={{  mt: 5, mb: 2,m: 4, p: 4, width: 300, height: 300}}
+    />
+    </Grid>
+
+    <Grid item sm={12} md={4} lg={4}>
+    <PhoneAndroidIcon
+    fontSize="large"
+    sx={ {mt: 5, m: 4, p: 4, width: 300, height: 300}}
     
 
+    />
+        </Grid>
+
+  
+     <Grid item sm={12} md={4} lg={4}>
+    <TabletAndroidIcon
+    fontSize="large"
+    sx={{ mt: 5, mb: 2,m: 4, p: 4, width: 300, height: 300}}
+    
+    /> 
+    </Grid>
+  
+    
+    </Grid> 
+
+<div className={styles.wrapperbg}>
+    
+    <Image
+    priority 
+  alt="bgimage"
+  src="/computer1.jpg"  
+  width="2000px"
+  height="1000px"
+  
+/>
+</div>
+   
+   
    <section className={styles.containerabout}> 
+   <p className="lead text-center">The small things matter</p>
    <figure className="text-center m-5 p-5 " >
     <blockquote className="blockquote">
-    <p className={styles.pquote}>"53% of mobile users abandon slow websites after just 3 seconds"</p>
+    <p className={styles.pquote}><em>"53% of mobile users abandon slow websites after just 3 seconds"</em></p>
     </blockquote>
   <figcaption className="blockquote-footer">
   <cite title="Source Title">Google</cite>
   </figcaption>
   </figure>
   </section>
-   
+
+<FadeIn>
+<section className="text-center m-5 pb-5 mb-5">
+<h1 className="display-4 text-center">Technology</h1>
+
+<Badges/>
+<p class="lead"><strong>Your choice matters.</strong></p>
+</section>
+</FadeIn>
 
 <hr/>
 
