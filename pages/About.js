@@ -8,6 +8,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import { alpha } from '@mui/material/styles';
 import { flexbox } from '@mui/system';
 import { spacing } from '@mui/system';
+import Head from 'next/head';
 
 
 
@@ -24,8 +25,10 @@ const theme = {
   return (
         
 <div>
+<Head>
   <title>About</title>
-
+  <meta name="description" content="An introduction on who I am and what technology I like to use for my site" />
+</Head>
 <ul className="nav justify-content-end m-3">
   
   <li className="nav-item">

@@ -41,9 +41,11 @@ export default function Home() {
   
   
   return (
+    
 <div>
    <Head>
      <title>Home</title>
+     <meta name="description" content="Cheap good quality websites built with the latest technology" />
     </Head>
  <div>
    <Nav/>

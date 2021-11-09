@@ -7,7 +7,8 @@ function Badges () {
         <div  className=" row">
         <div className="col-12">
         <h1 className="display-5 text-center mb-4">Technology</h1>
-  <Image 
+  <Image
+  alt="tech" 
   className="pe-1"
     src="/reacticon.png"
     width="150"
@@ -16,6 +17,7 @@ function Badges () {
     />
 
   <Image
+  alt="tech"
     className="pe-2 ps-2 "
     
     src="/nextjs2.png"
@@ -25,6 +27,7 @@ function Badges () {
     />
 
 <Image
+alt="tech"
     className="pe-2 ps-2"
     src="/gatsbyjs.jpg"
     width="170"
@@ -34,6 +37,7 @@ function Badges () {
 
 
 <Image
+alt="tech"
     className="pe-2 ps-2"
     src="/matcss.png"
     width="170"
@@ -43,6 +47,7 @@ function Badges () {
 
 <div className="col">
 <Image
+alt="tech"
     className="pe-1"
     src="/matui.png"
     width="170"
@@ -52,6 +57,7 @@ function Badges () {
 
 
 <Image
+alt="tech"
     className=" ps-4"
     src="/bootstrap.png"
     width="150"
@@ -60,6 +66,7 @@ function Badges () {
 
 
 <Image
+alt="tech"
     className="pe-1 ps-1"
     src="/mailchimp.png"
     width="170"
@@ -69,6 +76,7 @@ function Badges () {
 
     
 <Image
+alt="tech"
     className="pe-1"
     src="/firebase.png"
     width="170"
