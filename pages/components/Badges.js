@@ -3,9 +3,10 @@ import Image from 'next/image'
 
 function Badges () {
     return (
-        <div className="container d-flex justify-content-around">
-<div  className="row">
-<div className="col-12 p-2 ">
+        <div className="container d-flex justify-content-center">
+        <div  className=" row">
+        <div className="col-12">
+        <h1 className="display-5 text-center mb-4">Technology</h1>
   <Image 
   className="pe-1"
     src="/reacticon.png"
@@ -40,7 +41,7 @@ function Badges () {
 
     />
 
-<div className="col m-2 p-2 d-flex justify-content-around">
+<div className="col">
 <Image
     className="pe-1"
     src="/matui.png"

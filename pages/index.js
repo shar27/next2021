@@ -73,10 +73,10 @@ export default function Home() {
   
 
 
- <h1 className="display-4 text-center mt-3 pt-4 mb-0 pb-0" >Did you know?</h1>
+ <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0" >Did you know?</h1>
   <section> 
    
-   <figure className="text-center mb-4 m-5 mt-0 p-5" >
+   <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5" >
     <blockquote className="blockquote">
     <p className={styles.pquote}><em>" In a study commissioned by Google and conducted by 55 and Deloitte,
      decreasing mobile site load times by just one tenth of a second resulted in major increases in conversion 
@@ -89,7 +89,9 @@ export default function Home() {
   </section>
 
   <FadeIn transitionDuration> 
+  <div className="container d-flex justify-content-center">
     <h1 className="display-5 text-center">Responsive designs</h1>
+    </div>
    </FadeIn>
 
 
@@ -125,38 +127,26 @@ export default function Home() {
     
     </Grid> 
 
-<div className={styles.wrapperbg}>
-    
-    <Image
-    priority 
-  alt="bgimage"
-  src="/computer1.jpg"  
-  width="2000px"
-  height="1000px"
-  
-/>
+
+ 
+
+
+<h5 className={styles.bgtext}>Fugiat mollit ea Lorem ipsum voluptate quis duis laborum magna fugiat nostrud non 
+reprehenderit.</h5> 
+<div>
+ 
 </div>
    
    
-   <section className={styles.containerabout}> 
-   <p className="lead text-center">The small things matter</p>
-   <figure className="text-center m-5 p-5 " >
-    <blockquote className="blockquote">
-    <p className={styles.pquote}><em>"53% of mobile users abandon slow websites after just 3 seconds"</em></p>
-    </blockquote>
-  <figcaption className="blockquote-footer">
-  <cite title="Source Title">Google</cite>
-  </figcaption>
-  </figure>
-  </section>
+   
+
+
 
 <FadeIn>
-<section className="text-center m-5 pb-5 mb-5">
-<h1 className="display-4 text-center">Technology</h1>
+
 
 <Badges/>
-<p class="lead"><strong>Your choice matters.</strong></p>
-</section>
+
 </FadeIn>
 
 <hr/>
