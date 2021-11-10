@@ -4,12 +4,12 @@ import Image from 'next/image'
 function Badges () {
     return (
         <div className="container d-flex justify-content-center">
-        <div  className=" row">
-        <div className="col-12">
-        <h1 className="display-5 text-center mb-4">Technology</h1>
+        <div  className="row">
+        <div className="col-12 text-center">
+        <h1 className="text-sm-start text-md-center mb-5">Technology</h1>
   <Image
-  alt="tech" 
-  className="pe-1"
+    alt="tech" 
+    className="pe-1"
     src="/reacticon.png"
     width="150"
     height="150"

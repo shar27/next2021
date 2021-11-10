@@ -54,9 +54,9 @@ const theme = {
 </ul>
 
 
-<div className="container">
+<div className="container d-flex align-items-center">
   <Image 
-  className="rounded-circle align-center"
+  className="rounded-circle d-flex align-items-center"
   alt="profile" 
   src="/profile-warsaw.jpg" 
   alt="me"

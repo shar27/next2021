@@ -15,7 +15,7 @@ function Services () {
 <div className="row">
 <div className="col">
 
-<h1 className=" display-2 m3 p-10 text-left">Consultation</h1>
+<h1 className=" display-2 m3 p-10 text-left text-sm-center text-md-center">Consultation</h1>
 <Image alt="something"  
   className="shadow-lg" 
   src="/consult.jpg"  

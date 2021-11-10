@@ -91,15 +91,22 @@ export default function Home() {
   </section>
 
   <FadeIn transitionDuration> 
-  <div className="container d-flex justify-content-center">
-    <h1 className="display-5 text-center">Responsive designs</h1>
+  <div className="container text-center">
+    <h1 className="text-sm-center text-lg-center text-md-end">Responsive designs</h1>
     </div>
    </FadeIn>
 
 
 
-   <Grid container> 
-   <Grid item sm={12} md={4} lg={4}>
+   <Grid container
+   spacing={0}
+   direction="column"
+   alignItems="center"
+   justifyContent ="center"
+   style={{minHeight: '100vh'}}
+   
+   > 
+   <Grid item sm={12} md={12} lg={4}>
     
     <ComputerIcon
      
@@ -133,8 +140,7 @@ export default function Home() {
  
 
 
-<h5 className={styles.bgtext}>Fugiat mollit ea Lorem ipsum voluptate quis duis laborum magna fugiat nostrud non 
-reprehenderit.</h5> 
+
 <div>
  
 </div>
