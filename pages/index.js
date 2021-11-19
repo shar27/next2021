@@ -164,6 +164,8 @@ export default function Home() {
 
 <Testimonials/>
 <Contact/>
+<p className="lead text-center">If you would like to see more of my work please visit my Github and my Portfolio site(the middle icon).</p>
+
 <div className="d-flex justify-content-center"> 
 <GitHubIcon onClick={event => window.location.href='https://github.com/shar27/'} 
 style={hoveredStyle} 
@@ -174,6 +176,7 @@ sx={{
   
     }}/>
        <WebIcon 
+      
       onClick={event => window.location.href='https://app.netlify.com/teams/shar27/sites'} 
       style={hoveredStyle} 
       fontSize="large" 
