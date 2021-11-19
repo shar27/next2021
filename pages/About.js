@@ -9,7 +9,7 @@ import { alpha } from '@mui/material/styles';
 import { flexbox } from '@mui/system';
 import { spacing } from '@mui/system';
 import Head from 'next/head';
-
+import WebIcon from '@mui/icons-material/Web';
 
 
 export default function About () {
@@ -56,7 +56,7 @@ const theme = {
 
 <div className="container d-flex align-items-center">
   <Image 
-  className="rounded-circle d-flex align-items-center"
+  className="rounded-circle .align-self-sm-center"
   alt="profile" 
   src="/profile-warsaw.jpg" 
   alt="me"
@@ -70,10 +70,10 @@ const theme = {
 
   </div>
   <section className={styles.intro}> 
-  
+  <div className="container">
   <h5 className=" display-4 mt-5 -5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, Cześć!</h5>
   <h5 className="display-4 mt-5 mb-5 m-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">  你好, سلام   </h5>
-  
+  </div>
   <h5 className="display-5 mt-5 m-5 p-2 text-sm-center text-md-center text-lg-center" >My name is Shar and I am a web developer from the UK!</h5> 
   </section>
         
@@ -95,7 +95,7 @@ const theme = {
             <li>Urdu</li>
         </ol>
         <ol>
-        <h5 className="text-start"><span>Machine Languages</span></h5>
+        <h5 className="text-center"><span>Machine Languages</span></h5>
             <li>React.js</li>
             <li>Gatsby.js</li>
             <li>Next.js</li>
@@ -103,11 +103,22 @@ const theme = {
             <li>Materialise</li>
            
         </ol>
+        <ol>
+        <h5 className="text-start"><span>Services</span></h5>
+            <li>Firebase</li>
+            <li>Mailchimp</li>
+            <li>Keystone.js</li>
+            <li>Dropbox</li>
+            <li>Calendly</li>
+            <li>Stripe</li>
+            <li>Paypal</li>
+           
+        </ol>
     </div>
     
     <div>
       <h1 className="display-4 text-center mt-4">Portfolio links</h1>
-          <p className="lead text-center mt-4 mb-5">If you are interested in some of my work, please visit my github</p>
+          <p className="lead text-center mt-4 mb-5">If you are interested in some of my work, please visit my github/portfolio site (middle icon).</p>
      <div className="d-flex justify-content-center">
       <GitHubIcon 
       onClick={event => window.location.href='https://github.com/shar27/'} 
@@ -118,6 +129,18 @@ const theme = {
       display: 'inline-flex',   
       justifyContent: 'center',
       }}/>
+
+      <WebIcon 
+      onClick={event => window.location.href='https://app.netlify.com/teams/shar27/sites'} 
+      style={hoveredStyle} 
+      fontSize="large" 
+      sx={{ 
+        
+      display: 'inline-flex',   
+      justifyContent: 'center',
+      }}/>
+     
+
       <LinkedInIcon onClick={event => window.location.href='https://www.linkedin.com/in/shar-ahmed'} 
       style={hoveredStyle} 
       fontSize="large" 

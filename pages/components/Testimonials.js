@@ -15,6 +15,7 @@ function Testimonials () {
 
 <h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">E-commerce store</h1>
 <Image 
+  onClick={event => window.location.href='https://spendlet.com/'}
   alt="spendlet"
   src="/spendlet.PNG"  
   width="500px"
