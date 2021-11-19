@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import WebIcon from '@mui/icons-material/Web';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from 'react-player';
 import styles from '../styles/Home.module.css'
@@ -173,6 +173,15 @@ sx={{
   display: 'flex-inline'
   
     }}/>
+       <WebIcon 
+      onClick={event => window.location.href='https://app.netlify.com/teams/shar27/sites'} 
+      style={hoveredStyle} 
+      fontSize="large" 
+      sx={{ 
+        
+      display: 'inline-flex',   
+      justifyContent: 'center',
+      }}/>
 <LinkedInIcon onClick={event => window.location.href='https://www.linkedin.com/in/shar-ahmed'} 
 style={hoveredStyle} 
 fontSize="large" 
