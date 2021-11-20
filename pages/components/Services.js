@@ -82,7 +82,7 @@ This is where we put your site live for the world to see!
 </div>
 
   <div  id="div" className="col-12">
-<h1 className="display-2 m3 p-10 shadow  text-center">Calendar</h1>
+<h1 className="display-2 m3 p-10 border  text-center">Calendar</h1>
 <InlineWidget styles={{height: '400px'}} url="https://calendly.com/shariqahmed" />
     
 <p className="lead text-left mt-4 text-lg-center">
