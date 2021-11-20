@@ -9,7 +9,7 @@ function Testimonials () {
   return (
 
 <div id='testimonials' className="container p-5" >
-<h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center text-lg-center">What do people say....</h1>
+<h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center shadow text-lg-center">What do people say....</h1>
 <div className="row">
 <div className="col">
 
@@ -42,6 +42,8 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
       offline and I wanted to make the switch to online. I am not the most technical person however he explained each
       step really well and kept me in the loop at all times."
 </p>
+
+
 
     
 </div>

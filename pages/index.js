@@ -9,7 +9,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Services from './components/Services'
 import Contact from './components/Contact'
 import Testimonials from './components/Testimonials'
-
+import Otherwork from './components/Otherwork';
 import Nav from './components/Nav'
 import { spacing } from '@mui/system';
 import React, {useState} from 'react';
@@ -163,6 +163,9 @@ export default function Home() {
 <Services/>
 
 <Testimonials/>
+
+<Otherwork/>
+
 <Contact/>
 <p className="lead text-center">If you would like to see more of my work please visit my Github and my Portfolio site(the middle icon).</p>
 
