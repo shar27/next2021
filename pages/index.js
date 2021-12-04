@@ -91,40 +91,8 @@ export default function Home() {
   </figure>
   </section>
 
-  <FadeIn transitionDuration> 
-  
-  
-<div className="container">
-
-<div className="row">
-  
-<div className="col">
-<Image
-  src="/device.png"
-  width="300"
-  height="300"
-/>
-</div>
-<div className="col">
-<Image
-  src="/bolt.png"
-  width="300"
-  height="300"
-/>
-</div>
-<div className="col">
-<Image
-  src="/thumb.png"
-  width="300"
-  height="300"
-/>
-</div>
-</div>
- 
-</div>
-   </FadeIn> 
    
-  <IconText/>
+  
 
 
 
