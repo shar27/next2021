@@ -13,6 +13,7 @@ import Otherwork from './components/Otherwork';
 import Nav from './components/Nav'
 import { spacing } from '@mui/system';
 import React, {useState} from 'react';
+import IconText from './components/IconText'
 
 import ComputerIcon from '@mui/icons-material/Computer';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
@@ -91,62 +92,39 @@ export default function Home() {
   </section>
 
   <FadeIn transitionDuration> 
-  <div className="container text-center">
-    <h1 className="text-sm-center text-lg-center text-md-end">Responsive designs</h1>
-    </div>
-   </FadeIn>
-
-
-
-   <Grid container
-   spacing={0}
-   direction="column"
-   alignItems="center"
-   justifyContent ="center"
-   style={{minHeight: '100vh'}}
-   
-   > 
-   <Grid item sm={12} md={12} lg={4}>
-    
-    <ComputerIcon
-     
-      fontSize = "large"
-      sx={{  mt: 5, mb: 2,m: 4, p: 4, width: 300, height: 300}}
-    />
-    </Grid>
-
-    <Grid item sm={12} md={4} lg={4}>
-    <PhoneAndroidIcon
-    fontSize="large"
-    sx={ {mt: 5, m: 4, p: 4, width: 300, height: 300}}
-    
-
-    />
-        </Grid>
-
   
-     <Grid item sm={12} md={4} lg={4}>
-    <TabletAndroidIcon
-    fontSize="large"
-    sx={{ mt: 5, mb: 2,m: 4, p: 4, width: 300, height: 300}}
-    
-    /> 
-    </Grid>
   
-    
-    </Grid> 
+<div className="container">
 
-
- 
-
-
-
-<div>
+<div className="row">
+  
+<div className="col">
+<Image
+  src="/device.png"
+  width="300"
+  height="300"
+/>
+</div>
+<div className="col">
+<Image
+  src="/bolt.png"
+  width="300"
+  height="300"
+/>
+</div>
+<div className="col">
+<Image
+  src="/thumb.png"
+  width="300"
+  height="300"
+/>
+</div>
+</div>
  
 </div>
+   </FadeIn> 
    
-   
-   
+  <IconText/>
 
 
 
