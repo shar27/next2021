@@ -8,7 +8,7 @@ function Testimonials () {
   
   return (
 
-<div id='testimonials' className="container p-5" >
+<div id='testimonials' className="container p-5 bg-light text-dark" >
 <h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center  text-lg-center">What do people say....</h1>
 <div className="row">
 <div className="col">

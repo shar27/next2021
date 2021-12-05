@@ -24,78 +24,69 @@ const theme = {
   
   return (
         
-<div>
+<div className={styles.backgrounddiv}>
 <Head>
   <title>About</title>
   <meta name="description" content="An introduction on who I am and what technology I like to use for my site" />
 </Head>
-<ul className="nav justify-content-end m-3">
+<ul className="nav justify-content-end m-3 text-white">
   
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1  text-dark">Home</a>
+    <a className="nav-link m-2 p-1  text-white fw-bold">Home</a>
   </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1   text-dark" >Services</a>
+    <a className="nav-link m-2 p-1   text-white fw-bold" >Services</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1   text-dark"  >Testimonials</a>
+    <a className="nav-link m-2 p-1   text-white fw-bold"  >Testimonials</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1   text-dark"  >Contact</a>
+    <a className="nav-link m-2 p-1   text-white fw-bold"  >Contact</a>
     </Link>
   </li>
 </ul>
 
 
-<div className="container d-flex align-items-center">
-  <Image 
-  className="rounded-circle .align-self-sm-center"
-  alt="profile" 
-  src="/profile-warsaw.jpg" 
-  alt="me"
-  width="400"
-  height="400"
-  priority
-  />
+
   
 
   
 
-  </div>
+
   <section className={styles.intro}> 
-  <div className="container">
-  <h5 className=" display-4 mt-5 -5 mb-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">Hello, Hola, Cześć!</h5>
-  <h5 className="display-4 mt-5 mb-5 m-5 pt-4 pb-4  text-sm-center text-md-center text-lg-center">  你好, سلام   </h5>
+  <div className="container mt-4">
+  <h5 className=" display-4 me-4 mt-4 ">Hello, Hola, Cześć!</h5>
+  <h5 className="display-4 mt-5 mb-5 m-5 pt-4 pb-4 ms-4 ">  你好, سلام   </h5>
   </div>
-  <h5 className="display-5 mt-5 m-5 p-2 text-sm-center text-md-center text-lg-center" >My name is Shar and I am a web developer from the UK!</h5> 
+  <h5 className="display-5 text-center me-4" >My name is Shar and I am a web developer from the UK!</h5> 
   </section>
         
-<div  className="container"> 
-    <h1 className="display-3 m-5 border text-center shadow-sm " >About me</h1>
+<div  className="container text-white"> 
+    <h1 className="display-3 m-5 border text-center shadow-sm  " >About me</h1>
     <p className="lead text-center mb-5">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
     town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love traveling and I love exploring the unknown.
-    If you already can't tell, a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
+    A byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
     To date, I have visited 27 countries and I have lived in 3 of them. </p>
     
     <div className="container shadow d-flex flex-row justify-content-center mt-4">
           
-        <ol className="text-left">
-       <h5><span>Human Languages</span></h5>
+        <ol className="list-unstyled">
+       <h5 className=" mb-4"><span className="me-4">Human Languages</span></h5>
             <li>English</li>
             <li>Spanish</li>
             <li>Mandarin</li>
             <li>Punjabi</li>
             <li>Urdu</li>
         </ol>
-        <ol>
-        <h5 className="text-center"><span>Machine Languages</span></h5>
+        <ol className="list-unstyled">
+        <h5 className="text-center me-4 mb-4"><span>Machine Languages</span></h5>
             <li>React.js</li>
             <li>Gatsby.js</li>
             <li>Next.js</li>
@@ -103,8 +94,8 @@ const theme = {
             <li>Materialise</li>
            
         </ol>
-        <ol>
-        <h5 className="text-start"><span>Services</span></h5>
+        <ol className="list-unstyled">
+        <h5 className="text-start me-4 mb-4"><span>Services</span></h5>
             <li>Firebase</li>
             <li>Mailchimp</li>
             <li>Keystone.js</li>

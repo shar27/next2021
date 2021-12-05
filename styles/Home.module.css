@@ -9,7 +9,9 @@
 
 }
 
-
+.backgrounddiv {
+  background-color: black;
+}
 
 .progressbar {
   height: 40px;
@@ -56,6 +58,7 @@ text-align:center;
   text-align: center;
   margin-left: 50px;
   margin-top: 1px;
+  color:white;
 }
 
 .acursor {
@@ -95,7 +98,7 @@ text-align:center;
 
 .pquote {
 display: inline-block;
-color: black;
+color: white;
 }
 
 .footer {

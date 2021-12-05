@@ -7,10 +7,15 @@ function Otherwork() {
   
     
     return (
-        <div className="container p-5">
+        <div className="container p-5 text-white fw-bold">
+        
           <h1 className=" display-2 text-center border">Other Projects</h1>  
 
-          <h1 className="display-5 m1 p-7  text-right mb-4" >Weather app</h1>
+          <div className="container p-5 text-white fw-bold">
+
+          <div className="row">
+          <div className="col-6">
+  <h1 className="display-5 m1 p-7  text-right mb-4" >Weather app</h1>
 <Image
 
   onClick={event => window.location.href='https://weather-this.netlify.app/'}
@@ -26,7 +31,9 @@ function Otherwork() {
 <Link href="https://weather-this.netlify.app/">
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
+</div>
 
+<div className="col-6">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Teaching site</h1>
 <Image
 
@@ -38,12 +45,14 @@ onClick={event => window.location.ref='https://teacher-esl.com/'}
 />
     
     <p className="lead text-right mt-4 mb-4">
-    A Teaching site built with Nextjs, Bootstrap, Stripe, Firebase and Mailchimp.
+    A Teaching site built with Nextjs, Bootstrap, Strapijs, Stripe, Google analytics and Mailchimp.
 </p>
 <Link href="https://teacher-esl.com/">
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
+</div>
 
+<div className="col">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Google clone</h1>
 <Image
 
@@ -60,10 +69,11 @@ onClick={event => window.location.ref='https://googlecl1.netlify.app/'}
 <Link href="https://googlecl1.netlify.app/">
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
-
-<h1 className="display-5 m1 p-7   text-right mb-4" >Tesla Clone</h1>
+</div>
+<div className="col">
+<h1 className="display-5 m1 p-7 text-right mb-4" >Tesla Clone</h1>
 <Image
-onMouseEnter ={()=> setIsShown(true)} 
+onMouseEnter= {()=> setIsShown(true)} 
 onClick={event => window.location.ref='https://tesla-shar-clone.netlify.app/'}
   alt="Tesla"
   src="/teslaclone.PNG"  
@@ -77,6 +87,9 @@ onClick={event => window.location.ref='https://tesla-shar-clone.netlify.app/'}
 <Link href="https://tesla-shar-clone.netlify.app/">
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
+</div>
+        </div>
+        </div>
         </div>
     )
 }

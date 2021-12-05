@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 function Badges () {
     return (
-        <div className="container d-flex justify-content-center">
+        <div className=" d-flex justify-content-center bg-light">
         <div  className="row">
         <div className="col-12 text-center">
-        <h1 className="text-sm-start text-md-center mb-5">Technology</h1>
+        <h1 className="text-sm-start text-md-center mb-5 text-dark  fw-bold">Technology</h1>
   <Image
     alt="tech" 
     className="pe-1"

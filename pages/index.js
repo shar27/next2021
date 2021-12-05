@@ -43,7 +43,7 @@ export default function Home() {
   
   return (
     
-<div>
+<div className={styles.backgrounddiv}>
    <Head>
      <title>Home</title>
      <meta name="description" content="Cheap good quality websites built with the latest technology" />
@@ -76,16 +76,16 @@ export default function Home() {
   
 
 
- <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0" >Did you know?</h1>
+ <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0 text-white" >Did you know?</h1>
   <section> 
    
-   <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5" >
-    <blockquote className="blockquote">
+   <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5 text-white" >
+    <blockquote className="blockquote text-white">
     <p className={styles.pquote}><em>" In a study commissioned by Google and conducted by 55 and Deloitte,
      decreasing mobile site load times by just one tenth of a second resulted in major increases in conversion 
      rates — specifically, 8.4% for retail sites and 10.1% for travel sites. (Deloitte, 2019)"</em></p>
     </blockquote>
-  <figcaption className="blockquote-footer">
+  <figcaption className="blockquote-footer text-white">
   <cite title="Source Title">Deloitte & Google</cite>
   </figcaption>
   </figure>
@@ -113,9 +113,9 @@ export default function Home() {
 <Otherwork/>
 
 <Contact/>
-<p className="lead text-center">If you would like to see more of my work please visit my Github and my Portfolio site(the middle icon).</p>
+<p className="lead text-center text-white fw-bold">If you would like to see more of my work please visit my Github and my Portfolio site(the middle icon).</p>
 
-<div className="d-flex justify-content-center"> 
+<div className="d-flex justify-content-center text-white fw-bold"> 
 <GitHubIcon onClick={event => window.location.href='https://github.com/shar27/'} 
 style={hoveredStyle} 
 fontSize="large" 
