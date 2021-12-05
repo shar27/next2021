@@ -80,6 +80,18 @@ This is where we put your site live for the world to see!
 1 free month of maintenance to ensure your site is functioning as it should be. 
 </p>
 </div>
+<div className="col">
+<h1 className="display-2 m3 p-10  text-left col-12 " >Project takeover</h1>
+<Image alt="something" className="shadow" src="/stress.jpg"  
+  width="500px"
+  height="300px"
+  priority
+/>
+    
+<p className="lead text-left mt-4">
+Last developer made a mess and left you hanging? No worries, leave it to me.
+</p>
+</div>
 
 
 
