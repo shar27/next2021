@@ -20,6 +20,7 @@ import TabletAndroidIcon from '@mui/icons-material/TabletAndroid';
 import Grid from '@material-ui/core/Grid';
 import Badges from './components/Badges';
 import FadeIn from 'react-fade-in';
+import CookieConsent from 'react-cookie-consent'
 
 
 
@@ -114,7 +115,17 @@ export default function Home() {
 <Testimonials/>
 </FadeIn>
 <Otherwork/>
-
+<CookieConsent
+  location="bottom"
+  buttonText="Sure man!!"
+  cookieName="myAwesomeCookieName2"
+  style={{ background: "#2B373B" }}
+  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+  expires={150}
+>
+  This website uses cookies to enhance the user experience.{" "}
+  
+</CookieConsent>
 <Contact/>
 <p className="lead text-center text-white fw-bold">If you would like to see more of my work please visit my Github and my Portfolio site(the middle icon).</p>
 
