@@ -211,6 +211,10 @@ color: white;
   position: relative;
 }
 
+.nav{
+  cursor: pointer;
+}
+
 .wrap > div {
   
   position: absolute;

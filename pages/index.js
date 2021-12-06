@@ -46,7 +46,7 @@ export default function Home() {
      <title>Home</title>
      <meta name="description" content="Cheap good quality websites built with the latest technology" />
     </Head>
- <div>
+ <div className={styles.nav}>
    <Nav/>
    </div>
    
