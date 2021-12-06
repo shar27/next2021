@@ -14,7 +14,7 @@ function Otherwork() {
           <div className="container p-5 text-white fw-bold">
 
           <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-sm-12">
   <h1 className="display-5 m1 p-7  text-right mb-4" >Weather app</h1>
 <Image
 
@@ -33,7 +33,7 @@ function Otherwork() {
 </Link>
 </div>
 
-<div className="col-6">
+<div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Teaching site</h1>
 <Image
 
@@ -52,7 +52,7 @@ onClick={event => window.location.ref='https://teacher-esl.com/'}
 </Link>
 </div>
 
-<div className="col">
+<div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Google clone</h1>
 <Image
 
@@ -70,7 +70,7 @@ onClick={event => window.location.ref='https://googlecl1.netlify.app/'}
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 </div>
-<div className="col">
+<div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Tesla Clone</h1>
 <Image
 onMouseEnter= {()=> setIsShown(true)} 
