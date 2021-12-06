@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Link from 'next/Link'
 
 
 function Testimonials () {
@@ -29,6 +29,10 @@ I had previously worked with another developer where English wasn't their first 
 by providing me with relevant resources. Overall, Shariq is an excellent communicator and has a great work ethic. Will definitely use him again for future projects. Highly recommend!"
 </p>
 
+<Link href="https://spendlet.com/">
+<a className="btn btn-primary text-white">Live site</a>
+</Link>
+
 <h1 className="display-2 m1 p-7  text-right mb-4" >Restaurant</h1>
 <Image 
   alt="Restaurant"
@@ -43,6 +47,9 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
       step really well and kept me in the loop at all times."
 </p>
 
+<Link href="www.shar-ahmed.com">
+<a className="btn btn-primary text-white">Coming soon!</a>
+</Link>
 
 
     
