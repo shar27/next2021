@@ -4,7 +4,7 @@ import Link from 'next/link'
 import {useState } from 'react'
 
 function Otherwork() {
-  
+  const [isShown, setIsShown] = useState(false)
     
     return (
         <div className="container p-5 text-white fw-bold">

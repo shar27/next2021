@@ -14,13 +14,10 @@ import Nav from './components/Nav'
 import { spacing } from '@mui/system';
 import React, {useState} from 'react';
 import IconText from './components/IconText'
-
 import ComputerIcon from '@mui/icons-material/Computer';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import TabletAndroidIcon from '@mui/icons-material/TabletAndroid';
-
 import Grid from '@material-ui/core/Grid';
-
 import Badges from './components/Badges';
 import FadeIn from 'react-fade-in';
 
@@ -76,10 +73,13 @@ export default function Home() {
   
 
 
+  
+
+  <FadeIn delay={100} >
  <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0 text-white" >Did you know?</h1>
   <section> 
-   
-   <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5 text-white" >
+  
+    <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5 text-white" >
     <blockquote className="blockquote text-white">
     <p className={styles.pquote}><em>" In a study commissioned by Google and conducted by 55 and Deloitte,
      decreasing mobile site load times by just one tenth of a second resulted in major increases in conversion 
@@ -89,7 +89,9 @@ export default function Home() {
   <cite title="Source Title">Deloitte & Google</cite>
   </figcaption>
   </figure>
+  
   </section>
+  </FadeIn>
 
    
   
@@ -105,11 +107,12 @@ export default function Home() {
 
 <hr/>
 
-
+<FadeIn delay={100}>
 <Services/>
-
+</FadeIn>
+<FadeIn delay={100}>
 <Testimonials/>
-
+</FadeIn>
 <Otherwork/>
 
 <Contact/>
