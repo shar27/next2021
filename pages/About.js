@@ -24,31 +24,31 @@ const theme = {
   
   return (
         
-<div className={styles.backgrounddiv}>
+<div>
 <Head>
   <title>About</title>
   <meta name="description" content="An introduction on who I am and what technology I like to use for my site" />
 </Head>
-<ul className="nav justify-content-end m-3 text-white">
+<ul className="nav justify-content-end m-3 bg-white">
   
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1  text-white fw-bold">Home</a>
+    <a className="nav-link m-2 p-1  text-dark fw-bold">Home</a>
   </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1   text-white fw-bold" >Services</a>
+    <a className="nav-link m-2 p-1   text-dark fw-bold" >Services</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1   text-white fw-bold"  >Testimonials</a>
+    <a className="nav-link m-2 p-1   text-dark fw-bold"  >Testimonials</a>
     </Link>
   </li>
   <li className="nav-item">
   <Link href="/"> 
-    <a className="nav-link m-2 p-1   text-white fw-bold"  >Contact</a>
+    <a className="nav-link m-2 p-1   text-dark fw-bold"  >Contact</a>
     </Link>
   </li>
 </ul>
@@ -58,9 +58,10 @@ const theme = {
   
 
   
-
-
+<div className={styles.backgrounddiv}>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L1440,32L1440,0L0,0Z"></path></svg>
   <section className={styles.intro}> 
+  
   <div className="container mt-4">
   <h5 className=" display-4 me-4 mt-4 ">Hello, Hola, Cześć!</h5>
   <h5 className="display-4 mt-5 mb-5 m-5 pt-4 pb-4 ms-4 ">  你好, سلام   </h5>
@@ -147,7 +148,7 @@ const theme = {
     
     </div>
     </div>
-    
+</div>    
     
     )
 }
