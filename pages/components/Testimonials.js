@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 
 function Testimonials () {
@@ -8,7 +8,8 @@ function Testimonials () {
   
   return (
 
-<div id='testimonials' className="container p-5 bg-light text-dark" >
+<div id='testimonials' className="p-5 bg-light text-dark" >
+
 <h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center  text-lg-center">What do people say....</h1>
 <div className="row">
 <div className="col">
@@ -54,8 +55,11 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 
     
 </div>
+
 </div>
+
 </div>
+
     )
 }
 export default Testimonials

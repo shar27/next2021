@@ -103,18 +103,19 @@ export default function Home() {
 
 
 <Badges/>
-
 </FadeIn>
-
-<hr/>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L1440,256L1440,0L0,0Z"></path></svg>
 <FadeIn delay={100}>
 <Services/>
 </FadeIn>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L1440,256L1440,320L0,320Z"></path></svg>
+
 <FadeIn delay={100}>
 <Testimonials/>
+
 </FadeIn>
-<Otherwork/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L1440,32L1440,0L0,0Z"></path></svg><Otherwork/>
 <CookieConsent
   location="bottom"
   buttonText="Sure man!!"

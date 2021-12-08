@@ -6,6 +6,7 @@ function Badges () {
         <div className=" d-flex justify-content-center bg-light">
         <div  className="row">
         <div className="col-12 text-center">
+        
         <h1 className="text-sm-start text-md-center mb-5 text-dark  fw-bold">Technology</h1>
   <Image
     alt="tech" 
