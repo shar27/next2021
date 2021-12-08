@@ -77,10 +77,9 @@ export default function Home() {
   
 
   <FadeIn delay={100} >
- <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0 text-white" >Did you know?</h1>
+   <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0 text-white" >Did you know?</h1>
   <section> 
-  
-    <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5 text-white" >
+      <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5 text-white" >
     <blockquote className="blockquote text-white">
     <p className={styles.pquote}><em>" In a study commissioned by Google and conducted by 55 and Deloitte,
      decreasing mobile site load times by just one tenth of a second resulted in major increases in conversion 
@@ -92,6 +91,7 @@ export default function Home() {
   </figure>
   
   </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L1440,256L1440,320L0,320Z"></path></svg>
   </FadeIn>
 
    
