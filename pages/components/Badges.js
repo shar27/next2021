@@ -17,6 +17,23 @@ function Badges () {
 
     />
 
+<Image
+    alt="tech" 
+    className="pe-1"
+    src="/mysql.png"
+    width="150"
+    height="150"
+
+    />
+<Image
+    alt="tech" 
+    className="pe-1"
+    src="/nodejs.png"
+    width="150"
+    height="150"
+
+    />
+
   <Image
   alt="tech"
     className="pe-2 ps-2 "
@@ -57,6 +74,33 @@ alt="tech"
     />
 
 
+
+<Image
+    alt="tech" 
+    className="pe-1"
+    src="/redis.png"
+    width="150"
+    height="150"
+
+    />
+    
+<Image
+    alt="tech" 
+    className="pe-1"
+    src="/Servicenow.png"
+    width="250"
+    height="250"
+
+    />
+    <Image
+    alt="tech" 
+    className="pe-1"
+    src="/tailwind-css.png"
+    width="150"
+    height="150"
+
+    />
+    <div className="col">
 <Image
 alt="tech"
     className=" ps-4"
@@ -84,6 +128,7 @@ alt="tech"
     height="150"
 
     />
+    </div>
     </div>
 </div>
 </div>
