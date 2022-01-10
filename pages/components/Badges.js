@@ -54,24 +54,9 @@ alt="tech"
     />
 
 
-<Image
-alt="tech"
-    className="pe-2 ps-2"
-    src="/matcss.png"
-    width="170"
-    height="150"
 
-    />
 
 <div className="col">
-<Image
-alt="tech"
-    className="pe-1"
-    src="/matui.png"
-    width="170"
-    height="150"
-
-    />
 
 
 
@@ -92,14 +77,30 @@ alt="tech"
     height="250"
 
     />
-    <Image
+
+
+<Image
     alt="tech" 
     className="pe-1"
-    src="/tailwind-css.png"
-    width="150"
+    src="/graphql.png"
+    width="200"
+    height="200"
+
+    />
+
+
+      
+
+<Image
+alt="tech"
+    className="pe-1"
+    src="/firebase.png"
+    width="170"
     height="150"
 
     />
+    
+
     <div className="col">
 <Image
 alt="tech"
@@ -108,6 +109,34 @@ alt="tech"
     width="150"
     height="150"
 />
+
+<Image
+alt="tech"
+    className="pe-1"
+    src="/matui.png"
+    width="170"
+    height="150"
+
+    />
+
+
+<Image
+alt="tech"
+    className="pe-2 ps-2"
+    src="/matcss.png"
+    width="170"
+    height="150"
+
+    />
+
+    <Image
+    alt="tech" 
+    className="pe-1"
+    src="/tailwind-css.png"
+    width="150"
+    height="150"
+
+    />
 
 
 <Image
@@ -119,15 +148,53 @@ alt="tech"
 
     />
 
-    
+<div className='col'>
 <Image
 alt="tech"
-    className="pe-1"
-    src="/firebase.png"
+    className="pe-1 ps-1"
+    src="/wp.png"
     width="170"
     height="150"
 
     />
+<Image
+alt="tech"
+    className="pe-1 ps-1"
+    src="/shopify.png"
+    width="170"
+    height="150"
+
+    />
+<Image
+alt="tech"
+    className="pe-1 ps-1"
+    src="/contentful.png"
+    width="170"
+    height="150"
+
+    />
+
+<Image
+alt="tech"
+    className="pe-1 ps-1"
+    src="/strapilogo.png"
+    width="200"
+    height="200"
+
+    />
+
+<Image
+alt="tech"
+    className="pe-1 ps-1"
+    src="/stripe.png"
+    width="200"
+    height="200"
+
+    />
+
+    
+
+</div>
     </div>
     </div>
 </div>

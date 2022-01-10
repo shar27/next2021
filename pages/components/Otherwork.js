@@ -34,6 +34,25 @@ function Otherwork() {
 </div>
 
 <div className="col-lg-6 col-sm-12">
+  <h1 className="display-5 m1 p-7  text-right mb-4" >Blog site</h1>
+<Image
+
+  onClick={event => window.location.href='https://next-contentful-teaching-blog.vercel.app/'}
+  alt="blog"
+  src="/teachingblog.PNG"  
+  width="500px"
+  height="300px"
+/>
+
+    <p className="lead text-right mt-4 mb-4">
+     A website made with NEXTJS and contentful, a free open source CMS.
+</p>
+<Link href="https://next-contentful-teaching-blog.vercel.app/">
+<a className="btn btn-primary text-white">Live site</a>
+</Link>
+</div>
+
+<div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Teaching site</h1>
 <Image
 
