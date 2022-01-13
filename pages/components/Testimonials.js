@@ -42,7 +42,11 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
   width="500px"
   height="300px"
 />
-
+<p className="lead text-right mt-4 mb-4">
+      "Shariq was really knowledgeable about and he explained each step to me. He explained to me each tech he is using
+      and why he is using which really helped me to understand what was going on. He was also available as and when I needed him which
+      was great."
+</p>
 <Link href="https://github.com/shar27/gatsby-contentful-podcast">
 <a className="btn btn-primary text-white">In production.</a>
 </Link>
