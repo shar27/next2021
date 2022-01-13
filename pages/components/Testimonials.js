@@ -51,6 +51,22 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 <a className="btn btn-primary text-white">In production.</a>
 </Link>
 
+<h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">Landing page</h1>
+<Image 
+  onClick={event => window.location.href='https://www.wycombehive.org/'}
+  alt="wise"
+  src="/wise.PNG"  
+  width="500px"
+  height="300px"
+/>
+<p className="lead text-right mt-4 mb-4">
+      "Shariq has been maintaining our site as well as helping us migrate to a more stable SITE. He has been 
+      very communciative and has kept us in the know at all times."
+</p>
+<Link href="https://www.wycombehive.org/">
+<a className="btn btn-primary text-white">Live site</a>
+</Link>
+
 
 <h1 className="display-2 m1 p-7  text-right mb-4" >Restaurant</h1>
 <Image 
