@@ -34,6 +34,20 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 
+<h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">Podcast</h1>
+<Image 
+  onClick={event => window.location.href='https://github.com/shar27/gatsby-contentful-podcast'}
+  alt="podcast"
+  src="/podcast.jpg"  
+  width="500px"
+  height="300px"
+/>
+
+<Link href="https://github.com/shar27/gatsby-contentful-podcast">
+<a className="btn btn-primary text-white">In production.</a>
+</Link>
+
+
 <h1 className="display-2 m1 p-7  text-right mb-4" >Restaurant</h1>
 <Image 
   alt="Restaurant"
@@ -49,7 +63,7 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 </p>
 
 <Link href="www.shar-ahmed.com">
-<a className="btn btn-primary text-white">Coming soon!</a>
+<a className="btn btn-primary text-white">In production.</a>
 </Link>
 
 
