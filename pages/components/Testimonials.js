@@ -43,9 +43,8 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
   height="300px"
 />
 <p className="lead text-right mt-4 mb-4">
-      "Shariq was really knowledgeable about and he explained each step to me. He explained to me each tech he is using
-      and why he is using which really helped me to understand what was going on. He was also available as and when I needed him which
-      was great."
+      "Shariq was really knowledgeable and he explained each step to me. He also explained each tech he planned on using.
+      He was also available as and when I needed him which was great."
 </p>
 <Link href="https://github.com/shar27/gatsby-contentful-podcast">
 <a className="btn btn-primary text-white">In production.</a>
@@ -60,7 +59,7 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
   height="300px"
 />
 <p className="lead text-right mt-4 mb-4">
-      "Shariq has been maintaining our site as well as helping us migrate to a more stable SITE. He has been 
+      "Shariq has been maintaining our site as well as helping us migrate to a more stable site. He has been 
       very communciative and has kept us in the know at all times."
 </p>
 <Link href="https://www.wycombehive.org/">
