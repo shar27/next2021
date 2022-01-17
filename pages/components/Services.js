@@ -1,6 +1,6 @@
 import { InlineWidget } from "react-calendly";
 import Image from 'next/image'
-
+import Fade from 'react-reveal/Fade'
 
 
 
@@ -13,6 +13,7 @@ function Services () {
 <div className="container p-5 text-white fw-bold" id="services" >
 <h1  className="display-2 m-4 p-10 text-center border" >Services</h1>
 <div className="row">
+<Fade left>
 <div className="col">
 
 <h1 className=" display-2 m3 p-10 text-left text-sm-center text-md-center">Consultation</h1>
@@ -40,7 +41,9 @@ function Services () {
 
     
 </div>
+</Fade>
 
+<Fade right>
 <div className="col">
 
 <h1 className="display-2 m3 p-10  text-left " > Design</h1>
@@ -67,7 +70,9 @@ function Services () {
 This is where we put your site live for the world to see!  
 </p>
 </div>
+</Fade>
 
+<Fade left>
 <div className="col">
 <h1 className="display-2 m3 p-10  text-left col-12 " >Maintenance</h1>
 <Image alt="something" className="shadow" src="/maintena.jpg"  
@@ -80,6 +85,9 @@ This is where we put your site live for the world to see!
 1 free month of maintenance to ensure your site is functioning as it should be. 
 </p>
 </div>
+</Fade>
+
+<Fade right>
 <div className="col">
 <h1 className="display-2 m3 p-10  text-left col-12 " >Project takeover</h1>
 <Image alt="something" className="shadow" src="/stress.jpg"  
@@ -92,7 +100,7 @@ This is where we put your site live for the world to see!
 Last developer made a mess and left you hanging? No worries, leave it to me.
 </p>
 </div>
-
+</Fade>
 
 
 </div>

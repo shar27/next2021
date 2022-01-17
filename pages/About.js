@@ -9,6 +9,7 @@ import { alpha } from '@mui/material/styles';
 import { flexbox } from '@mui/system';
 import { spacing } from '@mui/system';
 import Head from 'next/head';
+import Fade from 'react-reveal/Fade'
 import WebIcon from '@mui/icons-material/Web';
 
 
@@ -63,21 +64,26 @@ const theme = {
   <section className={styles.intro}> 
   
   <div className="container mt-4">
+  <Fade top>
   <h5 className=" display-4 me-4 mt-4 ">Hello, Hola, Cześć!</h5>
   <h5 className="display-4 mt-5 mb-5 m-5 pt-4 pb-4 ms-4 ">  你好, سلام   </h5>
+  </Fade>
   </div>
+  <Fade bottom>
   <h5 className="display-5 text-center me-4" >My name is Shar and I am a web developer from the UK!</h5> 
+  </Fade>
   </section>
         
 <div  className="container text-white"> 
+<Fade left>
     <h1 className="display-3 m-5 border text-center shadow-sm  " >About me</h1>
     <p className="lead text-center mb-5">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
     town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love traveling and I love exploring the unknown.
     A byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
     To date, I have visited 27 countries and I have lived in 3 of them. </p>
-    
+    </Fade>
     <div className="container shadow d-flex flex-row justify-content-center mt-4">
-          
+          <Fade right>
         <ol className="list-unstyled">
        <h5 className=" mb-4"><span className="me-4">Human Languages</span></h5>
             <li>English</li>
@@ -86,6 +92,8 @@ const theme = {
             <li>Punjabi</li>
             <li>Urdu</li>
         </ol>
+        </Fade>
+        <Fade left>
         <ol className="list-unstyled">
         <h5 className="text-center me-4 mb-4"><span>Machine Languages</span></h5>
             <li>React.js</li>
@@ -95,6 +103,8 @@ const theme = {
             <li>Materialise</li>
            
         </ol>
+        </Fade>
+        <Fade right>
         <ol className="list-unstyled">
         <h5 className="text-start me-4 mb-4"><span>Services</span></h5>
             <li>Firebase</li>
@@ -106,6 +116,7 @@ const theme = {
             <li>Paypal</li>
            
         </ol>
+        </Fade>
     </div>
     
     <div>

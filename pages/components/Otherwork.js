@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/dist/client/image'
 import Link from 'next/link'
 import {useState } from 'react'
+import Fade from 'react-reveal/Fade'
 
 function Otherwork() {
   const [isShown, setIsShown] = useState(false)
@@ -14,6 +15,7 @@ function Otherwork() {
           <div className="container p-5 text-white fw-bold">
 
           <div className="row">
+          <Fade right>
           <div className="col-lg-6 col-sm-12">
   <h1 className="display-5 m1 p-7  text-right mb-4" >Weather app</h1>
 <Image
@@ -32,7 +34,8 @@ function Otherwork() {
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 </div>
-
+</Fade>
+<Fade left>
 <div className="col-lg-6 col-sm-12">
   <h1 className="display-5 m1 p-7  text-right mb-4" >Blog site</h1>
 <Image
@@ -51,7 +54,9 @@ function Otherwork() {
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 </div>
+</Fade>
 
+<Fade left>
 <div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Teaching site</h1>
 <Image
@@ -70,7 +75,8 @@ onClick={event => window.location.ref='https://teacher-esl.com/'}
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 </div>
-
+</Fade>
+<Fade rigt>
 <div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Google clone</h1>
 <Image
@@ -89,6 +95,9 @@ onClick={event => window.location.ref='https://googlecl1.netlify.app/'}
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 </div>
+</Fade>
+
+<Fade left>
 <div className="col-lg-6 col-sm-12">
 <h1 className="display-5 m1 p-7 text-right mb-4" >Tesla Clone</h1>
 <Image
@@ -107,6 +116,7 @@ onClick={event => window.location.ref='https://tesla-shar-clone.netlify.app/'}
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 </div>
+</Fade>
         </div>
         </div>
         </div>

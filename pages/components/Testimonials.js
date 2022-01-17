@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Fade from 'react-reveal/Fade'
 
 function Testimonials () {
   
@@ -12,6 +12,7 @@ function Testimonials () {
 
 <h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center  text-lg-center">What do people say....</h1>
 <div className="row">
+<Fade left>
 <div className="col">
 
 <h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">E-commerce store</h1>
@@ -88,7 +89,7 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 
     
 </div>
-
+</Fade>
 </div>
 
 </div>

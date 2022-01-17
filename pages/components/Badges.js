@@ -1,10 +1,11 @@
 import Image from 'next/image'
-
+import Fade from 'react-reveal/Fade'
 
 function Badges () {
     return (
         <div className=" d-flex justify-content-center bg-light">
         <div  className="row">
+        <Fade top>
         <div className="col-12 text-center">
         
         <h1 className="text-sm-start text-md-center mb-5 text-dark  fw-bold">Technology</h1>
@@ -197,8 +198,11 @@ alt="tech"
 </div>
     </div>
     </div>
+
 </div>
+</Fade>
 </div>
+
 </div>
 
     )
