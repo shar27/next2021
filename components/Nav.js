@@ -42,11 +42,7 @@ function Nav () {
   </Link>
   </li>
   </Pulse>
-  <li className="nav-item">
-  <Link href="/Blog"> 
-    <a className="nav-link m-2 p-1   text-white">Blog</a>
-    </Link>
- </li>
+  
   <Pulse>
   <li className="nav-item">
   <Link href="#contact"> 
