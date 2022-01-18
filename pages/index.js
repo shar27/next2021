@@ -6,19 +6,19 @@ import ReactPlayer from 'react-player';
 import styles from '../styles/Home.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Services from './components/Services'
-import Contact from './components/Contact'
-import Testimonials from './components/Testimonials'
-import Otherwork from './components/Otherwork';
-import Nav from './components/Nav'
+import Services from '../components/Services'
+import Contact from '../components/Contact'
+import Testimonials from '../components/Testimonials'
+import Otherwork from '../components/Otherwork';
+import Nav from '../components/Nav'
 import { spacing } from '@mui/system';
 import React, {useState} from 'react';
-import IconText from './components/IconText'
+import IconText from '../components/IconText'
 import ComputerIcon from '@mui/icons-material/Computer';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import TabletAndroidIcon from '@mui/icons-material/TabletAndroid';
 import Grid from '@material-ui/core/Grid';
-import Badges from './components/Badges';
+import Badges from '../components/Badges';
 import FadeIn from 'react-fade-in';
 import CookieConsent from 'react-cookie-consent'
 

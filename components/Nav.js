@@ -20,6 +20,11 @@ function Nav () {
     <a  className="nav-link m-2 p-1  pe-auto text-white">About me</a>
     </Link>
   </li>
+  <li className="nav-item">
+  <Link  href="Blog">
+    <a  className="nav-link m-2 p-1  pe-auto text-white">Blog</a>
+    </Link>
+  </li>
   </Pulse>
 
   <Pulse>
@@ -37,6 +42,11 @@ function Nav () {
   </Link>
   </li>
   </Pulse>
+  <li className="nav-item">
+  <Link href="/Blog"> 
+    <a className="nav-link m-2 p-1   text-white">Blog</a>
+    </Link>
+ </li>
   <Pulse>
   <li className="nav-item">
   <Link href="#contact"> 
