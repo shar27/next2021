@@ -61,15 +61,15 @@ function Otherwork() {
 <h1 className="display-5 m1 p-7 text-right mb-4" >Teaching site</h1>
 <Image
 
-onClick={event => window.location.ref='https://teacher-esl.com/'}
+onClick={event => window.location.ref='https://teaching-esl-shar27.vercel.app/'}
   alt="Teaching"
-  src="/myteachsite.PNG"  
+  src="/teachsite.PNG"  
   width="500px"
   height="300px"
 />
     
     <p className="lead text-right mt-4 mb-4">
-    A Teaching site built with Nextjs, Bootstrap, Strapijs, Stripe, Google analytics and Mailchimp.
+    A Teaching site built with Nextjs, Tailwindcss, contentful, Stripe, Google analytics, adroll ,Nodejs, Mongodb and Mailchimp.
 </p>
 <Link href="https://teacher-esl.com/">
 <a className="btn btn-primary text-white">Live site</a>
