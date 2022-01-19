@@ -23,6 +23,7 @@ function Testimonials () {
   width="500px"
   height="300px"
 />
+<Fade/>
 <p className="lead text-left mt-4">
 "I hired Shariq A. to help with my Shopify store's SEO, loading speed/performance and rebranding. 
 He was efficient and had a quick turnaround. He took the time to understand what I wanted to achieve, was very responsive and kept me in the loop all the time. 
@@ -35,6 +36,7 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
 
+<Fade left>
 <h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">Podcast</h1>
 <Image 
   onClick={event => window.location.href='https://github.com/shar27/gatsby-contentful-podcast'}
@@ -50,7 +52,9 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 <Link href="https://github.com/shar27/gatsby-contentful-podcast">
 <a className="btn btn-primary text-white">In production.</a>
 </Link>
+</Fade>
 
+<Fade right>
 <h1 className="display-2 mt-5 m3 p-10 text-md-start text-sm-center">Landing page</h1>
 <Image 
   onClick={event => window.location.href='https://www.wycombehive.org/'}
@@ -66,8 +70,9 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 <Link href="https://www.wycombehive.org/">
 <a className="btn btn-primary text-white">Live site</a>
 </Link>
+</Fade>
 
-
+<Fade right>
 <h1 className="display-2 m1 p-7  text-right mb-4" >Restaurant</h1>
 <Image 
   alt="Restaurant"
@@ -85,7 +90,7 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 <Link href="www.shar-ahmed.com">
 <a className="btn btn-primary text-white">In production.</a>
 </Link>
-
+</Fade>
 
     
 </div>
