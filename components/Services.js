@@ -87,7 +87,7 @@ This is where we put your site live for the world to see!
 </div>
 </Fade>
 
-<Fade right>
+<Fade top>
 <div className="col">
 <h1 className="display-2 m3 p-10  text-left col-12 " >Project takeover</h1>
 <Image alt="something" className="shadow" src="/stress.jpg"  

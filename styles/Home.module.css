@@ -1,12 +1,8 @@
-
-
 .container {
   padding: 0 2rem;
   margin-top: 10px;
-  margin-right:40px;
-  text-align:center;
-   
-
+  margin-right: 40px;
+  text-align: center;
 }
 
 .backgrounddiv {
@@ -19,19 +15,15 @@
 
 .badges {
   column-gap: 40px;
-
 }
-
-
 
 .servicecontainer {
   text-decoration: underline;
 }
 
 .mainheading {
-color: blue;
-text-align:center;
-
+  color: blue;
+  text-align: center;
 }
 
 .imgprofile {
@@ -58,7 +50,7 @@ text-align:center;
   text-align: center;
   margin-left: 50px;
   margin-top: 1px;
-  color:white;
+  color: white;
 }
 
 .acursor {
@@ -68,6 +60,19 @@ text-align:center;
   position: relative;
   padding-top: 56.25%;
   z-index: 1;
+}
+
+.main {
+  position: absolute;
+}
+
+.video-text {
+  top: 10px;
+  left: 10px;
+  padding: 2px;
+  border: 1px solid blue;
+  display: inline-block;
+  background: #e3f2fd;
 }
 
 .bgtext {
@@ -80,7 +85,7 @@ text-align:center;
 }
 
 .wrapperbg {
-  position:relative;
+  position: relative;
   margin-bottom: 100px;
   z-index: -2;
 }
@@ -97,8 +102,8 @@ text-align:center;
 }
 
 .pquote {
-display: inline-block;
-color: white;
+  display: inline-block;
+  color: white;
 }
 
 .footer {
@@ -211,12 +216,11 @@ color: white;
   position: relative;
 }
 
-.nav{
+.nav {
   cursor: pointer;
 }
 
 .wrap > div {
-  
   position: absolute;
   top: -100px;
 }
@@ -243,27 +247,27 @@ color: white;
 
 @keyframes block1 {
   0% {
-      top: -100px;
+    top: -100px;
   }
   100% {
-      top: 0;
+    top: 0;
   }
 }
 
 @keyframes block2 {
   0% {
-      top: -100px;
+    top: -100px;
   }
   100% {
-      top: 40px;
+    top: 40px;
   }
 }
 
 @keyframes block3 {
   0% {
-      top: -100px;
+    top: -100px;
   }
   100% {
-      top: 80px;
+    top: 80px;
   }
 }

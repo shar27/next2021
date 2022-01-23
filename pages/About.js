@@ -70,7 +70,7 @@ const theme = {
   </Fade>
   </div>
   <Fade bottom>
-  <h5 className="display-5 text-center me-4" >My name is Shar and I am a web developer from the UK!</h5> 
+  <h5 className="display-5 text-center me-4" >My name is Shar and I am a front-end developer from the UK!</h5> 
   </Fade>
   </section>
         

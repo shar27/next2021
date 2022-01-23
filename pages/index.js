@@ -11,17 +11,13 @@ import Contact from "../components/Contact";
 import Testimonials from "../components/Testimonials";
 import Otherwork from "../components/Otherwork";
 import Nav from "../components/Nav";
-import { spacing } from "@mui/system";
+
 import React, { useState } from "react";
-import IconText from "../components/IconText";
-import ComputerIcon from "@mui/icons-material/Computer";
-import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
-import TabletAndroidIcon from "@mui/icons-material/TabletAndroid";
-import Grid from "@material-ui/core/Grid";
+
 import Badges from "../components/Badges";
 import FadeIn from "react-fade-in";
 import CookieConsent from "react-cookie-consent";
-
+import Link from 'next/link'
 import Fade from "react-reveal/Fade";
 
 export default function Home() {
@@ -41,14 +37,14 @@ export default function Home() {
         <title>Home</title>
         <meta
           name="description"
-          content="Cheap good quality websites built with the latest technology"
+          content="I am Shar a FRONTEND Developer"
         />
       </Head>
       <div className={styles.nav}>
         <Nav />
       </div>
 
-      <div className="player-wrapper">
+      <div className="position-relative">
         <div className="container"></div>
 
         <div>
@@ -64,28 +60,34 @@ export default function Home() {
             width="100%"
           />
         </div>
+        
       </div>
 
       <Fade top>
         <h1 className="display-4 text-center col-sm-12 mt-3 pt-4 mb-0 pb-0 text-white">
-          Did you know?
+          Hey I am Shar and I am a Front-end developer.
         </h1>
+        <Fade right>
         <section>
           <figure className="text-center col-sm-12 mb-4 m-5 mt-0 p-5 text-white">
             <blockquote className="blockquote text-white">
               <p className={styles.pquote}>
                 <em>
-                  " In a study commissioned by Google and conducted by 55 and
-                  Deloitte, decreasing mobile site load times by just one tenth
-                  of a second resulted in major increases in conversion rates —
-                  specifically, 8.4% for retail sites and 10.1% for travel
-                  sites. (Deloitte, 2019)"
+                  I am a react developer with a strong interest in Edutech and SEO. I particulary enjoy using it's
+                  frameworks like Nextjs and Gatsbyjs.<br/> <br/> For more information about myself you can visit my 
+                  about me page by clicking About.<br/> For tech - Scroll down. <br/> For projects
+                  click projects <br/> 
+                  <Link href="/About"><a className="border btn btn-outline-dark ms-4 fw-bold text-light mt-4">About</a></Link>
+                  
                 </em>
               </p>
+              
             </blockquote>
-            <figcaption className="blockquote-footer text-white">
-              <cite title="Source Title">Deloitte & Google</cite>
-            </figcaption>
+            <Link href="#projects"><a className="border btn btn-outline-dark fw-bold ms-4 text-light">Projects</a></Link> 
+                      
+          
+           
+            
             <Fade right>
         <Image
           src="/idea.png"
@@ -96,7 +98,7 @@ export default function Home() {
         </Fade>
           </figure>
         </section>
-        
+        </Fade>
       </Fade>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -107,6 +109,7 @@ export default function Home() {
       </svg>
 
       <FadeIn>
+      
         <Badges />
       </FadeIn>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -127,7 +130,7 @@ export default function Home() {
           d="M0,96L1440,256L1440,320L0,320Z"
         ></path>
       </svg>
-
+<div id="projects"></div>
       <FadeIn delay={100}>
         <Testimonials />
       </FadeIn>
