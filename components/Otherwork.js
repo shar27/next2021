@@ -35,7 +35,11 @@ function Otherwork() {
               </p>
               <Link href="https://teacher-esl.com/">
                 <a className="btn btn-primary text-white">Live site</a>
+                
               </Link>
+              <Link href="https://github.com/shar27/teaching-esl" >
+                <a className="btn btn-primary text-white ms-4" >Github repo</a>
+                </Link>
             </div>
           </Fade>
           <Fade left>
@@ -59,6 +63,7 @@ function Otherwork() {
               <Link href="https://next-contentful-teaching-blog.vercel.app/">
                 <a className="btn btn-primary text-white">Live site</a>
               </Link>
+              
             </div>
           </Fade>
           <Fade right>
@@ -80,31 +85,13 @@ function Otherwork() {
               <Link href="https://weather-this.netlify.app/">
                 <a className="btn btn-primary text-white">Live site</a>
               </Link>
-            </div>
-          </Fade>
-
-          <Fade rigt>
-            <div className="col-lg-6 col-sm-12">
-              <h1 className="display-5 m1 p-7 text-right mb-4">Google clone</h1>
-              <Image
-                onClick={(event) =>
-                  (window.location.ref = "https://googlecl1.netlify.app/")
-                }
-                alt="Google"
-                src="/googleclone.png"
-                width="500px"
-                height="300px"
-              />
-
-              <p className="lead text-right mt-4 mb-4">
-                A Google clone that uses just HTML and CSS.
-              </p>
-              <Link href="https://googlecl1.netlify.app/">
-                <a className="btn btn-primary text-white">Live site</a>
+              <Link href="https://github.com/shar27/Weather">
+                  <a className="btn btn-primary text-white ms-4">Repo</a>
               </Link>
             </div>
           </Fade>
 
+          
           <Fade left>
             <div className="col-lg-6 col-sm-12">
               <h1 className="display-5 m1 p-7 text-right mb-4">Tesla Clone</h1>
@@ -123,9 +110,14 @@ function Otherwork() {
               <p className="lead text-right mt-4 mb-4">
                 A clone Tesla site using React.JS and Redux.
               </p>
+                
               <Link href="https://tesla-shar-clone.netlify.app/">
                 <a className="btn btn-primary text-white">Live site</a>
               </Link>
+              <Link href="https://github.com/shar27/tesla-clone">
+                <a className="btn btn-primary text-white ms-4">Repo</a>
+
+                </Link>
             </div>
           </Fade>
         </div>

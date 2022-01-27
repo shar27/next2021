@@ -88,25 +88,6 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 </Fade>
 
 
-<Fade right>
-<h1 className="display-2 m1 p-7  text-right mb-4" >Restaurant</h1>
-<Image 
-  alt="Restaurant"
-  src="/background1.jpg"  
-  width="500px"
-  height="300px"
-/>
-    
-    <p className="lead text-right mt-4 mb-4">
-      "Shariq was really helpful and efficient, I reached out to him because I had been running a successful business
-      offline and I wanted to make the switch to online. I am not the most technical person however he explained each
-      step really well and kept me in the loop at all times."
-</p>
-
-<Link href="www.shar-ahmed.com">
-<a className="btn btn-primary text-white">In production.</a>
-</Link>
-</Fade>
 
     
 </div>
