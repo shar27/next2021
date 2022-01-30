@@ -9,7 +9,7 @@ function Otherwork() {
 
   return (
     <div className="container p-5 text-white fw-bold">
-      <h1 className=" display-2 text-center border">Other Projects</h1>
+      <h1 className=" display-2 text-center border fw-bold">Other Projects</h1>
 
       <div className="container p-5 text-white fw-bold">
         <div className="row">

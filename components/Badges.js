@@ -3,12 +3,12 @@ import Fade from 'react-reveal/Fade'
 
 function Badges () {
     return (
-        <div className=" d-flex justify-content-center bg-light">
+        <div className="bg-white d-flex justify-content-center bg-light">
         <div  className="row">
         <Fade top>
         <div className="col-12 text-center">
         
-        <h1 className="text-sm-start text-md-center mb-5 text-dark  fw-bold">Technology</h1>
+        <h1 className="bg-white display-2 text-sm-start text-md-center mb-5 text-dark  fw-bold">Technology</h1>
   <Image
     alt="tech" 
     className="pe-1"

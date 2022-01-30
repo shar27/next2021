@@ -11,7 +11,7 @@ function Services () {
 
 
 <div className="container p-5 text-white fw-bold" id="services" >
-<h1  className="display-2 m-4 p-10 text-center border" >Services</h1>
+<h1  className="display-2 m-4 p-10 text-center border fw-bold" >Services</h1>
 <div className="row">
 <Fade left>
 <div className="col">

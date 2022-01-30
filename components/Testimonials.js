@@ -10,7 +10,7 @@ function Testimonials () {
 
 <div id='testimonials' className="p-5 bg-light text-dark" >
 
-<h1  className="display-2 mb-5 m-3 p-10 col-12 text-sm-center text-md-center  text-lg-center">What do people say...</h1>
+<h1  className="display-2 mb-5 m-3 p-10 col-12 col-sm-12 col-md-6 col-lg-6 text-sm-center text-md-center fw-bold text-lg-center">What do people say...</h1>
 <div className="row">
 <Fade left>
 <div className="col">
@@ -89,10 +89,11 @@ by providing me with relevant resources. Overall, Shariq is an excellent communi
 
 
 
-    
 </div>
+
 </Fade>
 </div>
+
 
 </div>
 
