@@ -27,7 +27,7 @@ export default function Blogs({ posts }) {
     <div>
     
     <Nav/>
-    <h1 className='display-5 ft-bold  text-center mb-5 mt-5'>English learning tips 101</h1>
+    <h1 className='display-5 ft-bold  text-center mb-5 mt-5'>Blogs</h1>
       
     <div className='container'>
     <div className="row  d-flex justify-content-center">
