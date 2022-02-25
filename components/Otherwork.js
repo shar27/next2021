@@ -5,7 +5,7 @@ import { useState } from "react";
 import Fade from "react-reveal/Fade";
 
 function Otherwork() {
-  const [isShown, setIsShown] = useState(false);
+ 
 
 const hoverStyle = {
   cursor: 'pointer'
@@ -16,7 +16,7 @@ const hoverStyle = {
   <div className="mt-20">
     <h1 className="text-6xl text-black text-center font-serif  ">Projects</h1>
   
-    <div style={hoverStyle} className="container p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 m-5 ml-20 ">
+    <div style={hoverStyle} className="container p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 ">
  
 <div className="text-black ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  border-white shadow-slate-500 bg-white hover:opacity-95 rounded-lg container p-5">
 <h1 className="text-3xl  ">E-commerce store</h1>

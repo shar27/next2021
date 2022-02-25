@@ -4,13 +4,13 @@ import Fade from "react-reveal/Fade";
 function Badges() {
   return (
     <div className="bg-white ">
-      <h1 className=" text-black text-6xl md:text-6xl lg:text-6xl font-serif  text-center md:text-center lg:text-center mt-20 mb-10 ml-5 md:ml-0 lg:ml-0">
+      <h1 className=" text-black text-6xl md:text-6xl lg:text-6xl font-serif  text-center md:text-center lg:text-center mt-20 mb-10">
             Technology
           </h1>
 
       <Fade left>
-        <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-4 ml-40 mb-10 ">
-          <div>
+        <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 ml-5 md:ml-10 lg:ml-20">
+        <div>
           <Image
             alt="tech"
             className="pl-1"
@@ -18,7 +18,7 @@ function Badges() {
             width="150"
             height="150"
           />
-
+    </div>
           <Image
             alt="tech"
             className="pl-1"
@@ -26,6 +26,7 @@ function Badges() {
             width="150"
             height="150"
           />
+          <div>
           <Image
             alt="tech"
             className="pl-1"
@@ -33,7 +34,8 @@ function Badges() {
             width="150"
             height="150"
           />
-
+</div>
+ <div>
           <Image
             alt="tech"
             className="pe-2 ps-2 "
@@ -41,8 +43,8 @@ function Badges() {
             width="150"
             height="150"
           />
-          </div>
-          <div>
+         </div>
+         <div>
             <Image
               alt="tech"
               className="pe-2 ps-2"
@@ -50,7 +52,8 @@ function Badges() {
               width="170"
               height="150"
             />
-
+        </div>
+        <div>
             <Image
               alt="tech"
               className="pl-1"
@@ -58,7 +61,8 @@ function Badges() {
               width="150"
               height="150"
             />
-
+          </div>
+          <div>
             <Image
               alt="tech"
               className=""
@@ -66,7 +70,8 @@ function Badges() {
               width="200"
               height="200"
             />
-
+      </div>
+      <div>
             <Image
               alt="tech"
               className=""
@@ -83,7 +88,8 @@ function Badges() {
                 width="170"
                 height="150"
               />
-
+        </div>
+        <div>
               <Image
                 alt="tech"
                 className=""
@@ -91,7 +97,8 @@ function Badges() {
                 width="150"
                 height="150"
               />
-
+          </div>
+          <div>
               <Image
                 alt="tech"
                 className="pe-1"
@@ -99,7 +106,8 @@ function Badges() {
                 width="170"
                 height="150"
               />
-
+          </div>
+          <div>
                 <Image
                 alt="tech"
                 className=""
@@ -117,7 +125,8 @@ function Badges() {
                   width="150"
                   height="150"
                 />
-
+            </div>
+            <div>
                 <Image
                   alt="tech"
                   className="pe-1 ps-1"
@@ -125,7 +134,8 @@ function Badges() {
                   width="170"
                   height="150"
                 />
-
+          </div>
+          <div>
                 <Image
                   alt="tech"
                   className="pe-1 ps-1"
@@ -133,6 +143,8 @@ function Badges() {
                   width="170"
                   height="150"
                 />
+               </div>
+               <div>
                 <Image
                   alt="tech"
                   className="pe-1 ps-1"
@@ -140,17 +152,10 @@ function Badges() {
                   width="170"
                   height="150"
                 />
-                 
+                 </div>
+               </div>
+            
                
-                 </div>       
-                 
-                 
-               
-
-             
-              
-
-              </div>
             
          
        
