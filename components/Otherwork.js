@@ -152,7 +152,7 @@ className="mt-10 rounded-lg "
 
 <Image 
 className="mt-10 rounded-lg "
-  onClick={event => window.location.href='https://www.wycombehive.org/'}
+  onClick={event => window.location.href='https://github.com/shar27/RepoFavs'}
   alt="wise"
   src="/user-profiles.PNG"  
   width="500px"
@@ -161,7 +161,7 @@ className="mt-10 rounded-lg "
 
   <br/>
 <br/>
-<Link href="https://www.wycombehive.org/">
+<Link href="https://github.com/shar27/RepoFavs">
 <a className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 text-white font-bold rounded-lg p-4 text-lg">Live site</a>
 </Link>
 </div>
@@ -246,7 +246,7 @@ className="mt-10 rounded-lg "
         <Image
         className="rounded-lg"
           onClick={(event) =>
-            (window.location.ref = "https://teaching-esl-shar27.vercel.app/")
+            (window.location.ref = "https://github.com/shar27/RepoFavs")
           }
           alt="Teaching"
           src="/github-finest.PNG"
@@ -257,12 +257,7 @@ className="mt-10 rounded-lg "
        <br/>
 
 <br/>
-        <Link href="https://teacher-esl.com/">
-          <a className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 font-bold rounded-lg p-4 text-lgg text-white">Live site</a>
-        </Link>
-        <br/>
-       <br/>
-         <br/>
+        
        
         <Link href="https://github.com/shar27/RepoFavs">
           <a className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 font-bold rounded-lg p-4 text-lgg text-white ms-4">
