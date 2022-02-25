@@ -1,59 +1,17 @@
-import Link from 'next/link'
-import Pulse from 'react-reveal/Pulse';
+import Link from "next/link";
+import Pulse from "react-reveal/Pulse";
 
-
-
-function Nav () {
-    
-  
+function Nav() {
   return (
+    <div>
+      <title>About</title>
 
-<div>
-  <title>About</title>
-
-
-<ul  className="nav justify-content-end m-1 p-1 col-12 pe-auto text-white fw-bold">
-
-
-  <li className="nav-item">
-  <Link  href="About">
-    <a  className="nav-link m-1   pe-auto text-white">About me</a>
-    </Link>
-  </li>
-  <li className="nav-item">
-  <Link  href="Blog">
-    <a  className="nav-link m-1 pe-auto text-white">Blog</a>
-    </Link>
-  </li>
-  
-
-  
-  <li className="nav-item">
-    <Link href="#services"> 
-    <a className="nav-link m-1  text-white">Services</a>
-    </Link>
-  </li>
-  
-  
-  
-  <li className="nav-item">
-  <Link href="#testimonials"> 
-    <a className="nav-link m-1 text-white" >Testimonials</a>
-  </Link>
-  </li>
-  
-  
-  
-  <li className="nav-item">
-  <Link href="#contact"> 
-    <a className="nav-link m-1   text-white">Contact</a>
-    </Link>
- </li>
- 
-</ul>
-
-</div>
-    )
+      <ul className="flex justify-center md:justify-end lg:justify-end p-2 md:p-3 lg:p-5 text-black font-bold ml-10 md:ml-5 lg:ml-0">
+       
+        
+      </ul>
+    </div>
+  );
 }
 
-export default Nav
+export default Nav;

@@ -1,11 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.css'; 
 import '../styles/globals.css'
 import { useEffect } from "react";
 import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
   
-  import('bootstrap/dist/css/bootstrap.css');
   
   return (
     <>

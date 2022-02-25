@@ -12,11 +12,11 @@ function Contact () {
     return (
 
 
-  <div id='contact' className="container d-grid gap-2 col-6 mx-auto ">
+  <div id='contact' className="bg-white flex justify-center mt-10 mb-5 ml-10 md:ml-0 lg:ml-0">
   
     <button onClick={openEmail} 
     type="submit" 
-    className="m-5 btn btn-outline-primary btn-lg item-center"
+    className="bg-blue-500 p-5 text-white font-bold rounded-lg "
     
     >Contact me</button>
 
