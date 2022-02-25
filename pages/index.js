@@ -47,17 +47,20 @@ export default function Home() {
       </motion.div>
       <Contact/>
         <motion.section initial="hidden" animate="visible" variants={variants}>
-        <section className=" text-center md:text-center lg:text-center  container mt-5 md:mt-5 lg:mt-5 mb-30 ml-2 md:ml-0 lg:ml-0">
-          <p className="text-black  font-bold mb-20 text-lg  md:text-lg lg:text-lg ">
-            I am a react developer with a strong interest in Edutech and SEO. I
-            particulary enjoy using it's frameworks like Nextjs and Gatsbyjs.
+        <section className=" text-center md:text-center lg:text-center  container mt-5 md:mt-5 lg:mt-20 mb-30 ml-2 md:ml-0 lg:ml-0">
+          <p className="font-bold mb-20 text-lg  md:text-lg lg:text-lg ">
+            I am a Reactjs developer with a strong interest in Edutech and SEO.<br/> I
+            particulary enjoy using it's frameworks like Nextjs and Gatsbyjs.<br/> Especially when it comes to configuring headless CMS solutions.<br/>
+            All testing is done in Jest.
+
+           
             </p>
             </section>
             </motion.section>
       
-     
+    
      <Otherwork/>
-    <IconText/>
+   
     <Contact/>
     <Badges/>
     <p className="text-center md:text-center lg:text-center ml-10 md:ml-0 lg:ml-20 text-black font-bold">
