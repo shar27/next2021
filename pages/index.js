@@ -1,15 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import WebIcon from "@mui/icons-material/Web";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Contact from "../components/Contact";
-import Testimonials from "../components/Testimonials";
 import Otherwork from "../components/Otherwork";
-import Nav from "../components/Nav";
 import React, { useState } from "react";
 import Badges from "../components/Badges";
-import CookieConsent from "react-cookie-consent";
 import { motion } from "framer-motion";
 
 
@@ -24,7 +20,7 @@ export default function Home() {
 
   const variants = {
     visible: { opacity: 1 },
-    hidden: { opacity: 0 },
+    hidden: { opacity: -1 },
   };
 
   return (
@@ -42,19 +38,22 @@ export default function Home() {
       
      
         
-         <motion.div ainitial="hidden" animate="visible" variants={variants}>
+         <motion.div initial="hidden" animate="visible" variants={variants}>
+         
         <h1 className=" text-black font-serif mt-20 md:mt-10 lg:mt-10 ml-12 md:ml-0 lg:ml-0 text-center md:text-center lg:text-center mb-20 text-6xl md:text-6xl lg:text-9xl">
           Hey,
           <br /> I'm Shar and I'm a Front-end developer.
         </h1>
       </motion.div>
       <Contact/>
+        <motion.section initial="hidden" animate="visible" variants={variants}>
         <section className=" text-center md:text-center lg:text-center  container mt-5 md:mt-5 lg:mt-5 mb-30 ml-5 md:ml-0 lg:ml-0">
           <p className="text-black  font-bold mb-20 text-lg  md:text-lg lg:text-lg ">
             I am a react developer with a strong interest in Edutech and SEO. I
             particulary enjoy using it's frameworks like Nextjs and Gatsbyjs.
             </p>
             </section>
+            </motion.section>
       
      
      <Otherwork/>
