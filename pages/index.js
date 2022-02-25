@@ -7,7 +7,7 @@ import Otherwork from "../components/Otherwork";
 import React, { useState } from "react";
 import Badges from "../components/Badges";
 import { motion } from "framer-motion";
-
+import IconText from '../components/IconText'
 
 export default function Home() {
   const theme = {
@@ -40,14 +40,14 @@ export default function Home() {
         
          <motion.div initial="hidden" animate="visible" variants={variants}>
          
-        <h1 className=" text-black font-serif mt-20 md:mt-10 lg:mt-10 ml-12 md:ml-0 lg:ml-0 text-center md:text-center lg:text-center mb-20 text-6xl md:text-6xl lg:text-9xl">
+        <h1 className=" text-black font-serif mt-20 md:mt-10 lg:mt-10 ml-10 md:ml-0 lg:ml-0 text-center md:text-center lg:text-center mb-20 text-6xl md:text-6xl lg:text-9xl">
           Hey,
           <br /> I'm Shar and I'm a Front-end developer.
         </h1>
       </motion.div>
       <Contact/>
         <motion.section initial="hidden" animate="visible" variants={variants}>
-        <section className=" text-center md:text-center lg:text-center  container mt-5 md:mt-5 lg:mt-5 mb-30 ml-5 md:ml-0 lg:ml-0">
+        <section className=" text-center md:text-center lg:text-center  container mt-5 md:mt-5 lg:mt-5 mb-30 ml-2 md:ml-0 lg:ml-0">
           <p className="text-black  font-bold mb-20 text-lg  md:text-lg lg:text-lg ">
             I am a react developer with a strong interest in Edutech and SEO. I
             particulary enjoy using it's frameworks like Nextjs and Gatsbyjs.
@@ -57,8 +57,10 @@ export default function Home() {
       
      
      <Otherwork/>
+    <IconText/>
+    <Contact/>
     <Badges/>
-    <p className="text-center md:text-center lg:text-center ml-20 md:ml-0 lg:ml-20 text-black font-bold">
+    <p className="text-center md:text-center lg:text-center ml-10 md:ml-0 lg:ml-20 text-black font-bold">
         If you would like to see more of my work please visit my Github and my
         Portfolio site(the middle icon).
       </p>

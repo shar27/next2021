@@ -9,7 +9,7 @@ function Badges() {
           </h1>
 
       <Fade left>
-        <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 ml-5 md:ml-10 lg:ml-20">
+        <div className="container p-5 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 ml-5 md:ml-10 lg:ml-20">
         <div>
           <Image
             alt="tech"
