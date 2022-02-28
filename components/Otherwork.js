@@ -62,7 +62,7 @@ function Otherwork() {
           <br />
           <Link href="https://github.com/shar27/gatsby-contentful-podcast">
             <a className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 font-bold rounded-lg p-4 text-lgg text-white">
-              In production.
+              In production
             </a>
           </Link>
         </div>
