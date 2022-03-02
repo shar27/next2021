@@ -15,9 +15,9 @@ function Otherwork() {
 
       <div
         style={hoverStyle}
-        className="container p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 "
+        className=" p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2 "
       >
-        <div className="text-black ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  border-white shadow-slate-500 bg-white hover:opacity-95 rounded-lg container p-5">
+        <div className=" text-black ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  border-white shadow-slate-500 bg-white hover:opacity-95 rounded-lg">
           <h1 className="text-3xl  ">E-commerce store</h1>
           <Image src="/shopify.png" width="100" height="100" />
           <Image
@@ -103,7 +103,7 @@ function Otherwork() {
           <Image
             className="mt-10 rounded-lg "
             onClick={(event) =>
-              (window.location.href = "https://github.com/shar27/RepoFavs")
+              (window.location.href = "https://github.com/shar27/User-search-typescript-and-react")
             }
             alt="wise"
             src="/user-profiles.PNG"
@@ -113,7 +113,7 @@ function Otherwork() {
 
           <br />
           <br />
-          <Link href="https://github.com/shar27/RepoFavs">
+          <Link href="https://github.com/shar27/User-search-typescript-and-react">
             <a className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 text-white font-bold rounded-lg p-4 text-lg">
              Repo
             </a>
@@ -183,7 +183,49 @@ function Otherwork() {
             </a>
           </Link>
         </div>
+        <div className=" text-black ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  border-white shadow-slate-500 bg-white hover:opacity-95 rounded-lg container p-5">
+          <div>
+          <h1 className="text-2xl  text-black mb-4">
+            User search - autocomplete
+          </h1>
+          </div>
+          <div>
+          <Image src="/reactjs.png" width="100" height="100" />
+          
+          
+          <Image src="/tailwind-css.png" width="100" height="100" />
+          
+          <Image src="/jest.png" width="100" height="100" />
+          
+          
+          <Image src="/redux.png" width="100" height="100" />
+          </div>
+          <div>
+          <Image
+            className="rounded-lg"
+            onClick={(event) =>
+              (window.location.ref = "https://github.com/shar27/autocomplete-react-redux")
+            }
+            alt="Teaching"
+            src="/search.jpg"
+            width="500px"
+            height="300px"
+          />
+          </div>
+          <br />
+          <br />
+
+          <br />
+            <div>
+          <Link href="https://github.com/shar27/autocomplete-react-redux">
+            <a className="text-center transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 font-bold rounded-lg p-4 text-lgg text-white ms-4">
+              Github repo
+            </a>
+          </Link>
+          </div>
+        </div>
       </div>
+      
     </div>
   );
 }

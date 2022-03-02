@@ -63,9 +63,8 @@ export default function Home() {
    
     <Contact/>
     <Badges/>
-    <p className="text-center md:text-center lg:text-center ml-10 md:ml-0 lg:ml-20 text-black font-bold">
-        If you would like to see more of my work please visit my Github and my
-        Portfolio site(the middle icon).
+    <p className="text-center md:text-center lg:text-center ml-10 md:ml-0 lg:ml-20 mt-10 text-black font-bold">
+        If you would like to see more of my work please visit my Github.
       </p>
       <div className="flex justify-center bg-white text-black font-bold ml-10 md:ml-5 lg:ml-0 mt-10 md:mt-0 lg-mt-0">
         <GitHubIcon
@@ -79,18 +78,7 @@ export default function Home() {
             display: "flex-inline",
           }}
         />
-        <WebIcon
-          onClick={(event) =>
-            (window.location.href =
-              "https://app.netlify.com/teams/shar27/sites")
-          }
-          style={hoveredStyle}
-          fontSize="large"
-          sx={{
-            display: "inline-flex",
-            justifyContent: "center",
-          }}
-        />
+       
         <LinkedInIcon
           onClick={(event) =>
             (window.location.href = "https://www.linkedin.com/in/shar-ahmed")
